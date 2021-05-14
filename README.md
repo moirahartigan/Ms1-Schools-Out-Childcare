@@ -7,6 +7,38 @@ This website is designed to provide the parents of primary school children with 
 
 <!-- add screen shot of devices here -->
 
+# Table of Contents
++ [User Experience](#user-experience)
+  + [User Stories](#user-stories)
+  + [Strategy](#strategy)
+  + [Scope](#scope)
+  + [Structure](#structure)
+    + [Website Sections](#website-sections)
+    + [Website Flow](#website-flow)
+    + [Interaction Design](#interaction-design)
+  + [Skeleton](#skeleton)
+    + [Wireframes](#wireframes)
+  + [Surface](#surface)
+    + [Colour Scheme](#colour-scheme)
+    + [Typography](#typography)
++ [Features](#features)
+  + [Current Features](#current-features)
+  + [Future Features](#future-features)
++ [Technologies Used](#technologies-used)
+  + [Languages Used](#languages-used)
+  + [Frameworks Libraries and Programmes Used](#frameworks-libraries-and-programmes-used)
++ [Testing](#testing)
+  + [Validator Testing](#validator-testing)
+  + [Lighthouse Testing](#lighthouse-testing)
++ [Deployment](#deployment)
+  + [Deployment through GitHub Pages](#deployment-through-gitHub-pages)
+  + [Forking the Repository](#forking-the-repository)
+  + [Making a Local Clone](#making-a-local-clone)
++ [Credits](#credits)
+  + [Code](#code)
+  + [Media](#media)
+  + [Acknowledgements](#acknowledgements)
+***
 # User Experience
 ### User Stories
 ### Strategy
