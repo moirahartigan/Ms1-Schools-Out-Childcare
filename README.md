@@ -1,59 +1,93 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Schools Out Childcare
+## **Code Institute - Milestone project 1: _User-Centric Frontend Development_** 
+This website is designed to provide the parents of primary school children with information regarding childcare during out of school hours and during school holidays.
+## Demo
+<!-- add link to live site here -->
+[View the Live Website Here](#) 
 
-Welcome moirahartigan,
+<!-- add screen shot of devices here -->
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+# User Experience
+### User Stories
+### Strategy
+<!-- Project goals, customer goals, company goals -->
+The goal in the design was to make it as easy as possible to access, short and an informative B2C based site, while striving for a minimalist and user-friendly design.
+### Scope
+<!--Features to include based on strategy (can/cannot achieve) -->
+### Structure
+<!--How the information will be logically grouped on the the site -->
+#### <em>Website Sections:</em>
+1. Home/landing page
+2. About
+3. Services
+4. Contact
+5. Footer
+#### <em>Website Flow</em>
+The flow of the site is simple and makes the logical linear progression from : About Us --> services --> Contact us.
+The user might choose their own route through the page, but the site has been designed to try and maintain their focused interest throughout the journey towards the end goal of completing the contact form and make an enquiry.
 
-## Gitpod Reminders
+#### <em>Interaction Design</em>
+### Skeleton
+<!--How the information is presented - navagation to features -->
+#### <em>Wireframes</em>
+<!-- Add screen shot of wireframe here -->
+All Wireframes were designed for laptop/computer, iPad/tablet and phone display.
+My figma wireframes can be found here (link)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Surface
+<!--The look and feel of the site -colours, typography, ease of use -->
+#### <em>Colour Scheme</em>
+<!-- Add screen shot of color scheme here -->
+#### <em>Typography</em>
+***
+# Features
+### Current Features
+All pages are fully responsive on all screen sizes.
+Navagation Links are fully functioning on all pages for ease of access.
+### Future Features
+I would like to add a testamonial carousel.
+I would also like to add more pages such as parents information / FAQ / and an option to book the summer camp from the website
+***
+# Technologies Used
+### Languages Used
+1. [HTML](https://en.wikipedia.org/wiki/HTML5) - To create a basic site
+2. [CSS](https://en.wikipedia.org/wiki/CSS) - To create a nice style and to stand-out
+### Frameworks Libraries and Programmes Used
+* Font Awesome used for icons.
+* GitHub used to host repository.
+* GitPod used to develop project and organise version control.
+* GitHub Pages Pages used to deploy the site.
+* Balsamiq used to create wireframes.
+<!-- * Autoprefixer used to make CSS cross-browser compatible.
+* Transfonter used to convert font from .tff to .woff and .woff2.
+* iOS Garage Band used to create audio.
+* Lighthouse for performance review.
+* PowerMapper used to check compatibility with older browsers.
+* Responsinator used to check site was responsive on different screen sizes.-->
+***
+# Testing
+### Validator Testing
+### Lighthouse Testing
+***
+# Deployment
+### Deployment through GitHub Pages
+This site was deployed through GitHub Pages using the following steps:
 
-`python3 -m http.server`
+* Log into GitHub.
+* Locate the repository.
+* Locate the settings option along the options bar.
+* Locate GitHub Pages options towards the bottom of the page.
+* In 'Source' dropdown, select 'Master' from the branch options.
+* Click the save button.
+* The site is now published though it may not be accessible straight away.
+* The site URL will be visible on the green bar under the section header. This will remain there permanently and you can refer back to it at any time.
 
-A blue button should appear to click: _Make Public_,
+# Credits
+### Code
+<!-- credit any code used and from where -->
+### Media
+<!-- where i sourced the images -->
+### Acknowledgements
+<!-- thank anyone who helped me -->
+***
 
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
