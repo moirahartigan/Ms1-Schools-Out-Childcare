@@ -18,19 +18,19 @@ body {
 }
 
 .navbar .navbar-nav .nav-link {
-    height: 21px;
-    padding: 0 18px 0 18px;
-    margin-bottom: 2px;
-    margin-top: 6px;
-    line-height: 15px;
-    font-weight: 200;
     letter-spacing: -0.02em;
     color: #fff;
   }
 
   .navbar .nav-item.active .nav-link,
   .navbar .nav-item:hover .nav-link {
-    color: #faf616;
+    color: black;
+  }
+
+  .nav-logo {
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
   }
   
   /* --Hero Image */
