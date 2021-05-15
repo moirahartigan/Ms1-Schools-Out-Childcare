@@ -1,5 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap');
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #888;
+  line-height: 30px;
+  text-align: center;
+}
+
+strong { font-weight: 600; }
+
+a, a:hover, a:focus {
+  color: #9b59b6;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+h1, h2 {
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+  font-weight: 300;
+  color: #555;
+  line-height: 50px;
+}
 .navbar {
   background: #444;
   -o-transition: all .6s;
