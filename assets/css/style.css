@@ -68,13 +68,11 @@
   #logo {
     position: absolute;
     z-index: 0;
-    top: 0;
-    left: 0;
     margin: 80px 0 0 40px;
-    text-align: left;
+    text-align: center;
   }
   #logo h1 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 110px;
     line-height: 120px;
     letter-spacing: 4px;
@@ -89,10 +87,6 @@
     letter-spacing: 0.01em;
     color: #fff;
   }   
-
-  .cover-text {
-    background-color: rgba(158, 107, 241, 0.5)
-  }
 
   /* -- About us -- */
   
