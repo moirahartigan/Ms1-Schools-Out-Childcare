@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap');
 
-body {
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    color: #3a3a3a;
-}
-
-/* --Navbar-- */
-
 .navbar {
   background: #444;
   -o-transition: all .6s;
@@ -55,13 +47,12 @@ body {
   border: 0;
   text-indent: -99999px;
 }
-  
   /* --Hero Image */
 
   .hero-container {
     height: 600px;
     width: 100%;
-    background: url("../images/rsz_group-kids-running-grass-together-having-race-park-back-view-full-length-children-outdoor-activity-concept.jpg") no-repeat center center;
+    background: url("../images/") no-repeat center center;
     background-size: cover;
     overflow: hidden;
 }
