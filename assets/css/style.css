@@ -88,38 +88,39 @@
     color: #fff;
   }   
 
-  /* -- About us -- */
-  
-  .container-about-us {
-    text-align: center;
-  }
-  .container-about-us h1 {
-      text-align: center;
-      margin: 20px;
-      
-      font-family: Robotto, sans-serif;
-      font-weight: 700;
-      font-style: normal;
-      font-size: 35px;
-      letter-spacing: -.03em;
-      line-height: 1.1em;
-      text-transform: none;
-  }
 
   
-
-  #about-us {
-    padding: 50px;
-    text-align: center;
-    background-color: #fff;
-    font-weight: 500;
-    font-style: normal;
-    color: #3a3a3a;
-    line-height: 2;
+  /***** About us *****/
+ 
+.about-us-box {
+  margin-top: 100px;
 }
 
-#about-us, #h1 {
-    font-size: 110% ;
+.about-us-box-text {
+  padding-right: 30px;
+  text-align: left;
+}
+
+.about-us-box-text h3 {
+  margin-top: 0;
+}
+
+.about-us-box-text .medium-paragraph {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about-us-box-text a {
+  border-bottom: 1px dashed #9b59b6;
+}
+
+.about-us-box-text a:hover,
+.about-us-box-text a:focus {
+  border: 0;
+}
+
+.about-us-box-img img {
+  border-radius: 4px;
 }
 
 /* services */
