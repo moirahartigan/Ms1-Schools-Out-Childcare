@@ -148,7 +148,7 @@ h1, h2 {
   border-radius: 4px;
 }
 
-/* services */
+
 
 /***** Services *****/
  
@@ -172,3 +172,19 @@ h1, h2 {
   margin-top: 0;
   padding: 0 0 10px 0;
 }
+
+/*Gallery*/
+.gallery{
+  margin: 4em 0;
+     position: relative; 
+ }
+ .gallery h1{
+  color:#F97300;
+  margin: 2em; 
+ }
+ .gallery img{
+   height: 15rem;
+   width: 100%;
+   margin: 1em;
+   
+ }
