@@ -214,3 +214,37 @@ h1, h2 {
   color: #888;
   font-size: 16px;
  }
+
+ /* Footer */
+ footer {
+   height: 150px;
+   background: #363839;
+   padding: 30px;
+ }
+
+ .copyright {
+   padding-top: 30px;
+ }
+
+ .social-networks {
+   text-align: center;
+ }
+
+ .social-networks li {
+   display: inline;
+ }
+
+ .social-networks i {
+   font-size: 160%;
+   margin: 1%;
+   padding: 5%;
+   color: #f5f9fd;
+ }
+
+ .social-networks li a i:hover {
+  color: #f5f9fd;
+  text-underline-position: under;
+  border-bottom: solid 1px #f5f9fd;
+  padding-bottom: 2px;
+}
+
