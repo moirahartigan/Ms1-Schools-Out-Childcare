@@ -198,6 +198,13 @@ h1, h2 {
    
  }
 
+ #gallery img{
+   box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.8);
+ }
+ 
+
+/* contact form */
+
  .contact-form{
   margin: 6em 0;
   position: relative;  
@@ -205,7 +212,7 @@ h1, h2 {
  
  .contact-form h1{
   padding:2em 1px;
-  color: #F97300; 
+  color: #555; 
  }
  .contact-form .right{
   max-width: 600px;
