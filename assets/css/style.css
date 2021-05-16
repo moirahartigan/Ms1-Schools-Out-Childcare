@@ -124,6 +124,8 @@ h1, h2 {
  
 .our-philosophy-box {
   margin-top: 100px;
+  margin-bottom: 100px;
+  
 }
 
 .our-philosophy-box-text {
@@ -140,17 +142,14 @@ h1, h2 {
   margin-bottom: 20px;
 }
 
-.our-philosophy-box-text a {
-  border-bottom: 1px dashed #9b59b6;
-}
-
-.our-philosophy-box-text a:hover,
-.our-philosophy-box-text a:focus {
-  border: 0;
-}
 
 .our-philosophy-box-img img {
   border-radius: 4px;
+}
+
+.our-philosophy-box-img {
+  box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.8);
+  margin-top: 20px;
 }
 
 
