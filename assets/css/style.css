@@ -130,7 +130,7 @@ h1, h2 {
 
 .our-philosophy-box-text {
   padding-right: 30px;
-  text-align: left;
+  text-align:center;
 }
 
 .our-philosophy-box-text h3 {
@@ -161,6 +161,11 @@ h1, h2 {
   text-align: left;
 }
 
+.services {
+
+}
+
+
 .services-box .services-box-icon {
   width: 80px;
   height: 80px;
@@ -183,7 +188,7 @@ h1, h2 {
      position: relative; 
  }
  .gallery h1{
-  color:#F97300;
+  color:#555;
   margin: 2em; 
  }
  .gallery img{
