@@ -53,7 +53,7 @@ h1, h2 {
 }
 
 .navbar-light .navbar-nav {
-  font-size: 15px;
+  font-size: 20px;
   color: #fff;
   font-weight: 600;
 }
@@ -82,6 +82,12 @@ h1, h2 {
   width: 46px;
   border: 0;
   text-indent: -99999px;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar .navbar-nav .nav-link {
+    border-left: none;
+  }
 }
 
 /***** Top content *****/
@@ -179,6 +185,7 @@ h1, h2 {
 
 .our-philosophy-box-img img {
   border-radius: 4px;
+  
 }
 
 .our-philosophy-box-img {
@@ -287,7 +294,7 @@ h1, h2 {
   max-width: 600px;
  }
  .contact-form .right .btn-secondary{
-  background:  #F97300;
+  background:  #ae0f86;
   color: #fff;
   border:0;
  }
