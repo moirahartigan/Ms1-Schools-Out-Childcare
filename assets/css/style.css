@@ -16,15 +16,26 @@ a, a:hover, a:focus {
   text-decoration: none;
   transition: all .3s;
 }
+/* headings and logo */
 
 h1, h2 {
   margin-top: 10px;
   font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
   font-size: 38px;
   font-weight: 300;
-  color: #555;
+  color: #252525;
   line-height: 50px;
 }
+
+#logo {
+  float: left;
+  font-size: 280%;
+  margin-left: 30px;
+  Color: #fff
+}
+
+/* bootstrap nav bar */
 .navbar {
   background: #444;
   -o-transition: all .6s;
@@ -40,23 +51,23 @@ h1, h2 {
   background: rgba(0, 0, 0, 0.2);
 }
 
-.navbar-dark .navbar-nav {
+.navbar-light .navbar-nav {
   font-size: 15px;
   color: #fff;
   font-weight: 600;
 }
 
-.navbar-dark .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
   color: #fff;
   color: rgba(255, 255, 255, 0.8);
   border: 0;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:hover {
   color: #fff;
 }
 
-.navbar-dark .navbar-nav .nav-link:focus {
+.navbar-light .navbar-nav .nav-link:focus {
   color: #fff;
   outline: 0;
 }
@@ -67,12 +78,57 @@ h1, h2 {
 }
 
 .navbar-brand {
-  width: 136px;
-  background: url(../img/logo.png) left center no-repeat;
+  width: 46px;
   border: 0;
   text-indent: -99999px;
 }
-  /* --Hero Image */
+
+/***** Top content *****/
+.darker-overlay {
+  position: absolute;
+  left: 0; 
+  height: 600px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+} 
+
+.top-content {
+  padding: 210px 0;
+  height: 600px;
+    width: 100%;
+    background: url("../images/child-colouring-fadded-background.jpg") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    
+    display: -webkit-box; 
+    display: -ms-flexbox;
+     display: flex; 
+}
+
+.top-content .text {
+  color: #fff;
+}
+
+.top-content .text h1 {
+  margin-top: 25px;
+  color: #fff;
+}
+
+.top-content .description {
+  margin: 30px 0 10px 0;
+}
+
+.top-content .description p {
+  opacity: 0.8;
+}
+
+.top-content .top-big-link {
+  margin-top: 45px;
+}
+
+
+  /* --Hero Image 
 
   .banner-container  {
     height: 600px;
