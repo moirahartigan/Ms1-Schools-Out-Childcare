@@ -143,7 +143,7 @@ h1, h2 {
     border-radius: 4px;
     transition: all .3s;
 }
- 
+  
 .btn-link:hover, .btn-link:focus, .btn-link:active, .btn-link:active:focus,
 .btn-link.btn-primary:not(:disabled):not(.disabled):active,
 .btn-link.btn-primary:not(:disabled):not(.disabled):active:focus {
@@ -195,10 +195,21 @@ h1, h2 {
 }
  .card-header {
    background: #ae0f86;
-
  }
 
+ .line {
+   height: 2px;
+   width: 200px;
+   background: #ae0f86;
+   margin: 20px 0;
+ }
  
+ .btn-1 .btn-link-1 {
+   color: #fff;
+   font-size: 20px;
+   text-transform: uppercase;
+   text-decoration: none;
+ }
 
 
 
