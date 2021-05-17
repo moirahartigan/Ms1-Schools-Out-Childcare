@@ -44,6 +44,7 @@ h1, h2 {
   -ms-transition: all .6s;
   transition: all .6s;
   backface-visibility: hidden;
+ 
 }
 
 .navbar.navbar-no-bg {
@@ -119,63 +120,40 @@ h1, h2 {
   margin: 30px 0 10px 0;
 }
 
-.top-content .description p {
+.top-content .description h3 {
   opacity: 0.8;
 }
 
-.top-content .top-big-link {
+.top-content .link {
   margin-top: 45px;
 }
 
-
-  /* --Hero Image 
-
-  .banner-container  {
-    height: 600px;
-    width: 100%;
-    background: url("../images/hero-2-img-children-playing-grass\ 256KB.jpg") no-repeat center center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 50% 50%;
-    
-    display: -webkit-box; 
-    display: -ms-flexbox;
-     display: flex; 
-  }
-  .darker-overlay {
-    position: absolute;
-    left: 0; 
-    height: 600px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  #logo {
-    position: absolute;
-    z-index: 0;
-    margin: 80px 0 0 40px;
-    text-align: center;
-  }
-  #logo h1 {
-    font-weight: 500;
-    font-size: 110px;
-    text-align: center;
-    line-height: 120px;
-    letter-spacing: 4px;
-    margin-bottom: 5px;
+.btn-link {
+    display: inline-block;
+    height: 50px;
+    margin: 0 5px;
+    padding: 0 28px;
+    background: #9b59b6;
+    background: rgba(155, 89, 182, 0.7);
+    border: 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 48px;
     color: #fff;
-  }
-  
-  #logo h6 {
-    font-weight: 300;
-    text-align: center;
-    font-size: 25px;
-    padding-left: 4px;
-    letter-spacing: 0.01em;
+    border-radius: 4px;
+    transition: all .3s;
+}
+ 
+.btn-link:hover, .btn-link:focus, .btn-link:active, .btn-link:active:focus,
+.btn-link.btn-primary:not(:disabled):not(.disabled):active,
+.btn-link.btn-primary:not(:disabled):not(.disabled):active:focus {
+    background: #9b59b6;
+    background: rgba(155, 89, 182, 0.9);
+    outline: 0;
     color: #fff;
-  }   
+    box-shadow: none;
+}
 
-
-  
   /***** Our Philosophy *****/
  
 .our-philosophy-box {
@@ -212,17 +190,26 @@ h1, h2 {
 
 /***** Services *****/
  
-.services-box {
+.services-container {
   padding-top: 30px;
+  padding-bottom: 2px;
+  background-color:#4f80bb;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff
+}
+
+
+.services-box {
+  height: 600px;
+  width: 100%
+  padding: 30px;
   text-align: left;
+  
 }
 
-.services {
-
-}
-
-
-.services-box .services-box-icon {
+/*  
+.services-box .i {
   width: 80px;
   height: 80px;
   margin: 0 auto;
@@ -232,7 +219,7 @@ h1, h2 {
   text-align: center;
   border-radius: 28px;
 }
-
+*/
 .services-box h3 {
   margin-top: 0;
   padding: 0 0 10px 0;
