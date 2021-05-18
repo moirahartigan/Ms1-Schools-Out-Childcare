@@ -146,37 +146,15 @@ nav .fa {
 
 /***** Our Philosophy *****/
 
-.our-philosophy-box {
-  margin-top: 100px;
-  margin-bottom: 100px;
-
-}
-
-.our-philosophy-box-text {
-  padding-right: 30px;
-  text-align: center;
-}
-
-.our-philosophy-box-text h3 {
-  margin-top: 0;
-}
-
-.our-philosophy-box-text .medium-paragraph {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-
-.our-philosophy-box-img img {
-  border-radius: 4px;
-
-}
-
-.our-philosophy-box-img {
-  box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.8);
+.container img {
+  box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.5);
   margin-top: 20px;
 }
 
+#our-philosophy {
+  padding: 100px 0px 100px 0px;
+
+}
 
 
 /***** Services *****/
