@@ -58,7 +58,6 @@ nav {
 #logo {
   float: left;
   font-size: 180%;
-  line-height: 75px;
   margin-left: 30px;
   color: #fff;
 }
@@ -310,3 +309,5 @@ footer {
   border-bottom: solid 1px #f5f9fd;
   padding-bottom: 2px;
 }
+
+
