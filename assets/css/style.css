@@ -36,7 +36,7 @@ nav {
   font-size: 13px;
 }
 .nav-links ul li::after {
-  content: "";
+  content:"";
   width: 0;
   height: 2px;
   background: #f44336;
@@ -91,21 +91,28 @@ nav {
     transition: 1s;
   }
 
-  @media screen and (max-width: 700px) {
+  @media(max-width: 700px) {
     .text-box h1 {
       font-size: 25px;
+   }
+   .text-box p {
+     font-size: 15px;
+   }
+   .nav-links ul li {
+     display: block;
+   }
+   .nav-links {
+     position: absolute;
+     background: #f44336;
+     height: 100vh;
+     width: 200px;
+     top: 0;
+     right: 0;
+     text-align: left;
+     z-index: 2;
+   }
     }
-    .nav-links {
-      position:absolute;
-      background: #f44336;
-      height: 100vh;
-      width: 200px;
-      top:0;
-      right:0;
-      text-align: left;
-      z-index: 2;
-    }
-  }
+
 
 
   /***** Our Philosophy *****/
