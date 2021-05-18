@@ -145,19 +145,36 @@ nav .fa {
 
 /***** Our Philosophy *****/
 
-.container img {
-  box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.5);
-  margin-top: 20px;
-}
-
-#our-philosophy {
-  padding: 100px 0px 100px 0px;
-
-}
 h1{
   font-size: 36px;
   font-weight: 600;
+  text-align: center;
 }
+
+.our-philosophy {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.philosophy-col {
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+
+.philosophy-col img {
+  width: 100%; 
+}
+
+.philosophy-col h1 {
+  padding-top: 0;
+}
+.philosophy-col p {
+  padding-top: 15px 0 25px;
+}
+
+
 
 /***** Services *****/
 
