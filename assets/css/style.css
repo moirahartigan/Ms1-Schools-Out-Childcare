@@ -205,13 +205,16 @@ h3{
 
 .services-cols {
   flex-basis: 31%;
-  background: #e7edf8;
+  color: #fff;
+  background: #436cec;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
   box-sizing: border-box;
   transition: 0.5s;
-
+}
+.services-cols p{
+  color: black;
 }
 
 .services-cols:hover {
@@ -221,10 +224,10 @@ h3{
 .service-btn {
   display: inline-block;
   text-decoration: none;
-  color: #0062cc;
-  border: 1px solid #0062cc;
+  color: #fff;
+  border: 2px solid #0062cc;
   padding: 12px 34px;
-  font-size: 13px;
+  font-size: 15px;
   background: transparent;
   position: relative;
   cursor: pointer;
