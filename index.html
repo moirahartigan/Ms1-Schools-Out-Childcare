@@ -40,8 +40,8 @@
     <!--Navagation bar -- -->
     <nav>
       <a href="index.html"><h1 id="logo">School's Out</h1></a>
-              <div class="nav-links">
-          <i class="fa fa-times"></i>
+              <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
         <ul>
           <li><a href="#home">Home</a></li>
          <li><a href="#our-philosophy">Our Philosophy</a></li>
@@ -50,7 +50,7 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-      <i class="fa fa-bars"></i>
+      <i class="fa fa-bars" onclick="showmenu()"></i>
     </nav> 
     <div class="text-box">
       <h1>Breakfast Club ∙ After School Club <br> ∙ Holiday camps</h1>
@@ -333,8 +333,19 @@
 
     <!-- font awsome script -->
     <script src="https://kit.fontawesome.com/841d64a4da.js" crossorigin="anonymous"></script>
-   
+   <!-- JavaScript for Toggle menu -->
+   <!-- https://stackoverflow.com/questions/27577211/javascript-toggle-menu -->
+<script>
+  var navLinks = document.getElementById("navLinks");
 
+  function showmenu(){
+    navLinks.style.right = "0"
+  }
+  function hidemenu(){
+    navLinks.style.right = "-200px"
+  }
+
+</script>
 </body>
 
 </html>
