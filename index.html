@@ -36,75 +36,60 @@
 
 <body>
 
-  <!-- Navagation bar -->
-  <nav class="navbar navbar-expand-sm sticky-top navbar-light text-uppercase">
-    <div class="container-fluid">
-      <a href="index.html">
-        <h1 id="logo"> <strong> Schools Out!</strong></h1></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav nav navbar-nav ml-auto">
-          <li class="nav-item active mr-3">
-            <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item mr-3">
-            <a class="nav-link" href="#our-philosophy">Our Philosophy</a>
-          </li>
-          <li class="nav-item mr-3">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
-          <li class="nav-item mr-3">
-            <a class="nav-link" href="#gallery">Gallery</a>
-          </li>
-          <li class="nav-item mr-3">
-            <a class="nav-link" href="#contact-us">Contact</a>
-          </li>
+  <Section class="header">
+    <!--Navagation bar -- -->
+    <nav>
+      <a href="index.html"><h1 id="logo">School's Out</h1></a>
+      
+        <div class="nav-links">
+          <i class="fas fa-times"></i>
+        <ul>
+          <li><a href="#home">Home</a></li>
+         <li><a href="#our-philosophy">Our Philosophy</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
+      <i class="fas fa-bars"></i>
+    </nav> 
+    <div class="text-box">
+      <h1>Breakfast Club ∙ After School Club <br> ∙ Holiday camps</h1>
+        <p>Out of School Hours Care for Primary School Children.
+        </p>
+        <a href="#contact" class="hero-btn">Contact Us Here</a>
     </div>
-  </nav>
-  <!--/. Navagation bar end -->
+    
+     
+    
+    <div class="text-box">
+      <h1>Breakfast Club ∙ After School Club <br> ∙ Holiday camps</h1>
+        <p>Out of School Hours Care for Primary School Children.
+        </p>
+        <a href="#contact" class="hero-btn">Contact Us Here</a>
+    </div>
+    
+  </Section>
 
-<!-- Top content/hero img-->
-<div class="darker-overlay">
-</div>
-<div class="top-content">
-  <div class="container">
+<!--/. Navagation bar end -->
 
-      <div class="row">
-          <div class="col-md-8 offset-md-2 text">
-              <h1 class="wow fadeInLeftBig"> <strong>Breakfast Club ∙ After School Club ∙ Holiday camps</strong></h1>
-                <div class="description wow fadeInLeftBig">
-                  <h3>
-                    Out of School hours childcare.
-                  </h3>
-              </div>
-              <div class="link wow fadeInUp">
-                  <a class="btn btn-primary btn-link" href="#contact-us">Get in Touch!</a>
-              </div>
-          </div>
-      </div>
-
-  </div>            
-</div>
-  <!--./end Top content/hero img-->
  
+  
   <!-- Our Philosophy -->
   <div class="our-philosophy-container section-container section-container-gray-bg">
     <div id="our-philosophy" class="container">
       <div class="row">
         <div class="col-12 col-lg-7 our-philosophy-box">
           <div class="our-philosophy-box-text">
-           <div><h2 class="my-3">Our Philosophy</h2></div>
+            <div>
+              <h2 class="my-3">Our Philosophy</h2>
+            </div>
             <p class="medium-paragraph">
-              We believe that children’s activities during out-of-school-time can be as important to their growth 
-              and development as the time they spend in the classroom. 
+              We believe that children’s activities during out-of-school-time can be as important to their growth
+              and development as the time they spend in the classroom.
               <br>
               <br>
-               We offer a professional ‘Out of School Hours’ Service and Sports programme to
+              We offer a professional ‘Out of School Hours’ Service and Sports programme to
               primary school children.
             </p>
             <p> Our afterschool and sports programme is built on having fun and play, ensuring that the atmosphere is
@@ -119,7 +104,8 @@
         </div>
         <div class="col-12 col-lg-5 our-philosophy-box">
           <div class="our-philosophy-box-img">
-            <img src="/assets/images/children-playing-grass_1098-504.jpg" alt="kids lying in circle on grass" width="590" height= "400" class="round-img-fluid">
+            <img src="/assets/images/children-playing-grass_1098-504.jpg" alt="kids lying in circle on grass"
+              width="590" height="400" class="round-img-fluid">
           </div>
         </div>
       </div>
@@ -130,43 +116,44 @@
   <!-- Services -->
   <!-- https://getbootstrap.com/docs/4.1/components/collapse/#accordion-example -->
 
-<div class="container">
-  <div class="row">
-    <div class="col-lg-12">
-      <h2 class="text-center services-header">Our Services</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="text-center services-header">Our Services</h2>
+      </div>
     </div>
-  </div>
   </div>
   <div class="container">
     <div class="accordion" id="accordionExample">
       <div class="card">
         <div class="card-header" id="headingOne">
           <h5 class="mb-0">
-            <button class="btn-1 btn-link-1" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="btn-1 btn-link-1" type="button" data-toggle="collapse" data-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
               Breakfast Club
             </button>
           </h5>
         </div>
-    
+
         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
           <div class="card-body">
-           <div class="row">
-            <div class="col-lg-8 col-md-8"></div>
-            <h3>Breakfast Club</h3>
-            <div class="line"></div>
-            <p>Our breakfast club offers care between the hours of 8am until the school day starts Monday to Friday
-              during school term, times may vary locally.
-              <br>
-              <br>
-              We will provide a nutritious breakfast before the school day starts. For the remainder of the time
-              children can play with their friends or partake in an activity. They will then be taken to their
-              classroom when class begins.
-            </p>
-            
-            <div class="col-lg-4 col-md-4">
-              <img src="/assets/images/kids-playing soccer.jpg" alt="" class="img-fluid">
+            <div class="row">
+              <div class="col-lg-8 col-md-8"></div>
+              <h3>Breakfast Club</h3>
+              <div class="line"></div>
+              <p>Our breakfast club offers care between the hours of 8am until the school day starts Monday to Friday
+                during school term, times may vary locally.
+                <br>
+                <br>
+                We will provide a nutritious breakfast before the school day starts. For the remainder of the time
+                children can play with their friends or partake in an activity. They will then be taken to their
+                classroom when class begins.
+              </p>
+
+              <div class="col-lg-4 col-md-4">
+                <img src="/assets/images/kids-playing soccer.jpg" alt="#" class="img-fluid">
+              </div>
             </div>
-           </div>
           </div>
         </div>
       </div>
@@ -174,7 +161,8 @@
       <div class="card">
         <div class="card-header" id="headingTwo">
           <h5 class="mb-0">
-            <button class="btn-1 btn-link-1 collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <button class="btn-1 btn-link-1 collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+              aria-expanded="false" aria-controls="collapseTwo">
               After School Club
             </button>
           </h5>
@@ -183,32 +171,33 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
           <div class="card-body">
             <div class="row">
-            <div class="col-lg-8 col-md-8"></div>
-            <h3>After School Club</h3>
-            <div class="line"></div>
-            <p>
-              Our afterschool club takes place when classes finish and continues up to 6.30pm.
-              <br> Our aim is to extend your child’s daily learning by involving them in fun activities
-              that will positively challenge and stimulate them both physically and cognitively.
-              <br>
-              <p>Your child can unwind in a relaxed, safe and fun,
-                home from home environment which is part of the school community.
+              <div class="col-lg-8 col-md-8"></div>
+              <h3>After School Club</h3>
+              <div class="line"></div>
+              <p>
+                Our afterschool club takes place when classes finish and continues up to 6.30pm.
+                <br> Our aim is to extend your child’s daily learning by involving them in fun activities
+                that will positively challenge and stimulate them both physically and cognitively.
                 <br>
-                Our after school and sports model plays an important role in the social and emotional development
-                of children and is not intended to be an extension of the school day.
-              </p>
-              
-            <div class="col-lg-4 col-md-4">
-              <img src="/assets/images/kids-playing soccer.jpg" alt="" class="img-fluid">
+                <p>Your child can unwind in a relaxed, safe and fun,
+                  home from home environment which is part of the school community.
+                  <br>
+                  Our after school and sports model plays an important role in the social and emotional development
+                  of children and is not intended to be an extension of the school day.
+                </p>
+
+                <div class="col-lg-4 col-md-4">
+                  <img src="/assets/images/kids-playing soccer.jpg" alt="#" class="img-fluid">
+                </div>
             </div>
-           </div>
           </div>
         </div>
       </div>
       <div class="card">
         <div class="card-header" id="headingThree">
           <h5 class="mb-0">
-            <button class="btn-1 btn-link-1 collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <button class="btn-1 btn-link-1 collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+              aria-expanded="false" aria-controls="collapseThree">
               Holiday Camps
             </button>
           </h5>
@@ -234,126 +223,118 @@
                   <li>Bank Holidays 8:30am – 6:30pm</li>
                 </ul>
               </p>
-             
+
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div> 
- 
-  <!-- Gallery -->
-  <div class="gallery">
-    <h1 class="text-center">Gallery</h1>
-    <div id="gallery" class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <img src="/assets/images/girl-with-big-smile-classroom.jpg" class="round-img-fluid">
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <img src="/assets/images/children-playing-ladder-rope-pexels-photo-296301.jpeg" class="round-img-fluid">
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <img src="/assets/images/children-playing-soccer-pexels-photo-296302.jpeg" class="round-img-fluid">
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <img src="/assets/images/girls-running-with-balloons-forest.jpg" class="round-img-fluid">
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <img src="/assets/images/child with painted hands-pexels-photo-1148998.jpeg" class="round-img-fluid">
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <img src="/assets/images/child doing homework.jpg" class="round-img-fluid">
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <img src="/assets/images/Summer-camp.jpg" class="round-img-fluid">
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <img src="/assets/images/playground-swing.webp" class="round-img-fluid">
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <img src="/assets/images/kids-running-school-corridor.jpg" class="round-img-fluid">
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- Contact form -->
-  <div class="contact-form">
-    <div id="contact-us" class="container">
-      <form>
+    <!-- Gallery -->
+    <div class="gallery">
+      <h1 class="text-center">Gallery</h1>
+      <div id="gallery" class="container">
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-12">
-            <h1>Contact Us</h1>
+            <img src="/assets/images/girl-with-big-smile-classroom.jpg" class="round-img-fluid">
           </div>
-          <div class="col-lg-8 col-md-8 col-sm-12 right">
-            <div class="form-group">
-              <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="name">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control form-control-lg" placeholder="Your Phone" name="phone">
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control form-control-lg" placeholder="Email" name="email">
-            </div>
-            <div class="form-group">
-              <textarea class="form-control form-control-lg" placeholder="Message" name="message">
-
-          </textarea>
-            </div>
-            <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <img src="/assets/images/children-playing-ladder-rope-pexels-photo-296301.jpeg" class="round-img-fluid">
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <img src="/assets/images/children-playing-soccer-pexels-photo-296302.jpeg" class="round-img-fluid">
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <img src="/assets/images/girls-running-with-balloons-forest.jpg" class="round-img-fluid">
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <img src="/assets/images/child with painted hands-pexels-photo-1148998.jpeg" class="round-img-fluid">
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <img src="/assets/images/child doing homework.jpg" class="round-img-fluid">
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <img src="/assets/images/Summer-camp.jpg" class="round-img-fluid">
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <img src="/assets/images/playground-swing.webp" class="round-img-fluid">
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <img src="/assets/images/kids-running-school-corridor.jpg" class="round-img-fluid">
           </div>
         </div>
-      </form>
+      </div>
     </div>
-  </div>
-  <!--/.Contact end-->
 
-  
+    <!-- Contact form -->
+    <div class="contact-form">
+      <div id="contact-us" class="container">
+        <form>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <h1>Contact Us</h1>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 right">
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg" placeholder="Your Phone" name="phone">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control form-control-lg" placeholder="Email" name="email">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control form-control-lg" placeholder="Message" name="message">
 
-<footer>
-  <div class="row text-center">
-    <div class="col-md-4">
-<p class="text-light copyright" >Copyright © 2021 Schools Out</p>
+          </textarea>
+              </div>
+              <input type="submit" class="btn btn-secondary btn-block" value="Send" name="send">
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
-    <div class="col-md-4">
-      <ul class="social-networks">
-    <li><a href="https://facebook.com" target="_blank" rel="noopener"
-        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a></li>
-    <li><a href="https://twitter.com" target="_blank" rel="noopener"
-        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a></li>
-    <li><a href="https://youtube.com" target="_blank" rel="noopener"
-        aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a></li>
-    <li><a href="https://instagram.com" target="_blank" rel="noopener"
-        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a></li>
-  </ul>
-    </div>
-    <div class="col-md-4">
- 
-    </div>
-  </div>
-  
-
-</footer>
+    <!--/.Contact end-->
 
 
-<!-- bootstrap Javascript components -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/841d64a4da.js" crossorigin="anonymous"></script>
-<script src="assets/js/jquery-3.2.1.min.js"></script>
-<script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-</script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-</script>
-<script src="assets/js/jquery.backstretch.min.js"></script>
-<script src="assets/js/wow.min.js"></script>
-<script src="assets/js/retina-1.1.0.min.js"></script>
-<script src="assets/js/waypoints.min.js"></script>
-<script src="assets/js/scripts.js"></script>
+
+    <footer>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <p class="text-light copyright">Copyright © 2021 Schools Out</p>
+        </div>
+        <div class="col-md-4">
+          <ul class="social-networks">
+            <li><a href="https://facebook.com" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://youtube.com" target="_blank" rel="noopener"
+                aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+
+        </div>
+      </div>
+
+
+    </footer>
+
+
+
+
+    <!-- bootstrap Javascript components -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- font awsome script -->
+    <script src="https://kit.fontawesome.com/841d64a4da.js" crossorigin="anonymous"></script>
+   
 
 </body>
 
