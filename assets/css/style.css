@@ -6,6 +6,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
+
 /* Navagation and Header */
 .header {
   min-height: 100vh;
@@ -155,7 +156,7 @@ h1{
   width: 80%;
   margin: auto;
   padding-top: 150px;
-    padding-bottom: 150px;
+  padding-bottom: 150px;
 }
 
 .philosophy-col {
