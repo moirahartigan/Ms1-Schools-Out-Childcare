@@ -3,9 +3,15 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
 }
-
+body {
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+  height: 100vh;
+	margin: 0;
+	overflow-x: hidden;
+}
 
 /* Navagation and Header */
 .header {
@@ -154,13 +160,19 @@ h1{
   font-weight: 600;
   text-align: center;
 }
+.heading-line {
+	width: 50%;
+	margin: auto;
+	padding-top: 1%;
+	margin-top: 1%;
+}
+
 
 .our-philosophy {
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 80px 0;
 }
 
 .philosophy-col {
@@ -188,8 +200,7 @@ h1{
   width: 100%;
   margin: auto;
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 200px;
+  padding: 80px 0;
   background-image: linear-gradient(rgba(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)), url(../images/hands-painted-smile.png);
   background-position: center center;
   background-size: cover;
@@ -262,8 +273,7 @@ h3{
 .gallery {
   margin: 4em 0;
   position: relative;
-  padding-top: 100px;
-  padding-bottom: 150px;
+  padding: 80px 0;
 }
 
 .gallery h1 {
