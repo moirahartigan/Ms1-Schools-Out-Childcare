@@ -209,7 +209,7 @@ h1{
   margin: auto;
   text-align: center;
   padding: 80px 0;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)), url(../images/hands-painted-smile.png);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)), url(../images/girls-running-with-balloons-forest.jpg);
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -236,7 +236,7 @@ h3{
 .services-cols {
   flex-basis: 31%;
   color: #fff;
-  background: #436cec;
+  background: #80bad6f2;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
