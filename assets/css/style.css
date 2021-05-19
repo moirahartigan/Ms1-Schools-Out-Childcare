@@ -222,7 +222,7 @@ h1 {
 
 
 .row-sevice {
-  margin-top: 5%;
+  margin: 5%;
   display: flex;
   justify-content: space-between;
 }
@@ -303,7 +303,7 @@ h3{
 
  /* contact-us */
 
-.location{
+ .location{ 
   width: 80%;
   margin: auto;
   padding: 80px 0;
@@ -312,12 +312,18 @@ h3{
 .location iframe {
   width: 100%;
 }
+ 
 .contact-us {
   width: 80%;
   margin: auto;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)), url(../images/girl-on-skateboard.jpg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  
 }
 
-.contact-col {
+.contact-col { 
   flex-basis: 48%;
   margin-bottom: 30px;  
 }
@@ -337,12 +343,7 @@ margin-right: 30px;
 .contact-col div p {
   padding: 0;
 }
-.contact-col div h5 {
-  font-size: 20px;
-  margin-bottom: 5px;
-  color: #555;
-  font-weight: 400;
-}
+
 
 .contact-col input, .contact-col textarea {
   width: 100%;
@@ -352,7 +353,7 @@ margin-right: 30px;
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-/* contact-us section 
+/* contact-us section */
 
 
 /* footer */
