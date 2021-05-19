@@ -177,11 +177,13 @@ h1{
 
 .philosophy-col {
   flex-basis: 48%;
-  padding: 30px 20px 20px 20px;
+  padding: 10px;
 }
 
 .philosophy-col img {
-  width: 100%; 
+  width: 65%;
+  padding: 20px; 
+  text-align: center;
   border-radius: 10px;
 }
 
@@ -271,13 +273,14 @@ h3{
 
 
 .gallery {
-  margin: 4em 0;
+  margin: 0;
   position: relative;
   padding: 80px 0;
 }
 
 .gallery h1 {
-    margin: 2em;
+    font-size: 36px;
+  font-weight: 600;
 }
 
 .gallery img {
