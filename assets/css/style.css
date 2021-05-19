@@ -339,7 +339,8 @@ margin-right: 30px;
 /* footer */
 
 footer {
-  height: 150px;
+  height: 100px;
+  background-color: #555; 
 }
 
 .social-networks {
@@ -354,5 +355,15 @@ footer {
   font-size: 160%;
   margin: 1%;
   padding: 5%;
-  color: #3a3a3a;
+  color: #fff;
 }
+.social-networks i:hover{
+  color:#f44336;
+}
+footer p {
+  text-align: center;
+  color: inherit;
+  padding: 0;
+  margin: 0 auto;
+}
+
