@@ -122,7 +122,7 @@ nav .fa {
   }
 
   .nav-links {
-    position: absolute;
+    position: fixed;
     background: #f44336;
     height: 100vh;
     width: 200px;
@@ -282,43 +282,42 @@ h3{
 
 }
 
+ /* contact-us */
 
-/* contact-us section */
-
-.location {
+.location{
   width: 80%;
   margin: auto;
   padding: 80px 0;
 }
 
 .location iframe {
-  width: 100%
+  width: 100%;
 }
-
 .contact-us {
   width: 80%;
   margin: auto;
 }
 
 .contact-col {
-  margin-bottom: 30px; 
   flex-basis: 48%;
+  margin-bottom: 30px;  
 }
+
 .contact-col div {
-  align-items: center;
   display: flex;
+  align-items: center;
   margin-bottom: 40px;
 }
-.contact-col div .fa {
-  font-size: 28px;
-  color: #f44336;
-  margin: 10px;
-  margin-right: 30px;
+
+.contact-col .fa {
+font-size: 28px;
+color: #f44336;
+margin: 10px;
+margin-right: 30px;
 }
 .contact-col div p {
   padding: 0;
 }
-
 .contact-col div h5 {
   font-size: 20px;
   margin-bottom: 5px;
@@ -328,8 +327,32 @@ h3{
 
 .contact-col input, .contact-col textarea {
   width: 100%;
-  padding: 115px;
+  padding: 15px;
   margin-bottom: 17px;
   outline: none;
-  border: 1px solid ccc;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+/* contact-us section 
+
+
+/* footer */
+
+footer {
+  height: 150px;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks > li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #3a3a3a;
 }
