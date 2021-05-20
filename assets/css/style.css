@@ -178,40 +178,62 @@ h1{
   text-align: center;
 }
 
-
-.our-philosophy {
-  height: 100vh;
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding: 80px 0;
+/* .grid-container { 
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
 }
 
-.philosophy-col {
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+*/
+.our-philosophy {
+  display: block;
+  width: 100%;
+ object-fit: cover;
+ overflow: hidden;
+  margin: auto;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.row-philosophy {
   flex-basis: 48%;
   padding: 10px;
 }
 
-.philosophy-col img {
-  width: 65%;
+.philosophy {
+  flex-basis: 48%;
+  padding: 10px;
+}
+
+.philosophy img {
+  width: 100%;
   padding: 20px; 
   text-align: center;
   border-radius: 10px;
 }
 
-.philosophy-col h1 {
+.philosophy h1 {
   padding-top: 0;
 }
-.philosophy-col p {
+.philosophy p {
   padding-top: 15px 0 25px;
 }
 
-
+@media(max-width: 700px) {
+  .philosophy img {
+    width:25%;
+  }
+}
 
 /***** Services *****/
 
 .services{
-  height: 100vh;
+  height: 100%;
   width: 100%;
   margin: auto;
   text-align: center;
@@ -292,19 +314,20 @@ h1{
 /*Gallery*/
 
 .gallery {
+  height:100%
   margin: 4em 0;
   position: relative;
-  padding-top: 100px;
+  padding-top: 60px;
   padding-bottom: 150px;
 }
 
 .gallery h1 {
   color: #555;
-  margin: 0 0 80px;
+  margin: 0 0 8px;
 }
 
 .gallery img {
-  height: 15rem;
+  height: 14rem;
   width: 100%;
   border-radius: 10px;
   margin: 1em;
@@ -374,7 +397,8 @@ input[type=email]:focus {
 }
 
 #contact-us p {
-  margin: 40px 0;
+  margin: 20px 0;
+  padding: 20px;
 }
 
 .map-location {
