@@ -300,7 +300,7 @@ h1{
 
 .gallery h1 {
   color: #555;
-  margin: 2em;
+  margin: 0 0 80px;
 }
 
 .gallery img {
@@ -308,20 +308,26 @@ h1{
   width: 100%;
   border-radius: 10px;
   margin: 1em;
+  object-fit: cover;
 }
 
 #gallery img {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
-
+  object-fit: cover;
+  overflow:hidden;
 }
 
-
+.img-container {
+  
+}
 
 /* contact form */
 .contact-form {
+  height: 100%;
   text-align: center;
   width: 100%;
   padding-top: 40px;
+  padding-bottom: 40px;
   margin: auto;
   background-image: linear-gradient(rgba(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)), url(../images/girl-on-skateboard.jpg);
   background-position: center center;
@@ -371,6 +377,19 @@ input[type=email]:focus {
   margin: 40px 0;
 }
 
+.map-location {
+  padding: 20px;
+  margin-top: auto;
+} 
+.contact-form {
+  height: 100%;
+}
+
+.contact-form textarea {
+  height: auto;
+}
+
+
 /* media query */
 @media only screen and (min-width: 768px) {
   .form-input {
@@ -390,13 +409,6 @@ input[type=email]:focus {
 }
 
 
-.contact-form {
-  height: 575px;
-}
-
-.contact-form textarea {
-  height: auto;
-}
 
 
 /* footer */
