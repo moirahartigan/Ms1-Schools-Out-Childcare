@@ -8,6 +8,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: none;
 }
 body {
 	width: 100%;
@@ -305,7 +306,6 @@ h3{
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 
 }
-
  
 
 /* contact form 2*/
@@ -318,12 +318,13 @@ h3{
   background-position: center center;
   background-size: cover;
   position: relative;
-}
+ }
 
 
-#contact-form h3 {
-    font-size: 150%;
-    padding: 20px 0 10px 0;
+#contact-form h1 {
+  font-size: 36px;
+  font-weight: 600;
+  padding: 20px 0 10px 0;
 }
 
 
@@ -331,20 +332,15 @@ h3{
     padding: 10px;
 }
 
+ }
 .form-input {
     width: 100%;
     padding: 5px;
     border-radius: 3px 3px;
 }
 
-@media only screen and (min-width: 768px) {
-    .form-input {
-        width: 33%;
-    }
-
-    #contact-form {
-        padding: 20px;
-    }
+.content {
+  text-align: center;
 }
 
 input[type=text]:focus {
@@ -355,18 +351,28 @@ input[type=email]:focus {
     outline-color: #f44336;
 }
 
-#location {
+#contact-us {
   margin: 50px 0;
 }
 
-#location h2 {
+#contact-us h2 {
   padding: 0;
 }
 
-#location p {
+#contact-us p {
   margin: 40px 0;
 }
 
+/* media query */
+@media only screen and (min-width: 768px) {
+  .form-input {
+      width: 33%;
+  }
+
+  #contact-form {
+      padding: 20px;
+  }
+}
 
 @media screen and (max-width: 425px) {
   iframe {
