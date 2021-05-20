@@ -33,11 +33,13 @@ nav {
   padding: 2% 6%;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .nav-links {
   flex: 1;
   text-align: right;
+ 
 }
 
 .nav-links ul li {
@@ -178,18 +180,7 @@ h1{
   text-align: center;
 }
 
-/* .grid-container { 
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
-}
 
-.grid-item {
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
-*/
 .our-philosophy {
   display: block;
   width: 100%;
@@ -306,11 +297,6 @@ h1{
 
 
 
-
-/*Gallery*/
-
-
-
 /*Gallery*/
 
 .gallery {
@@ -340,9 +326,7 @@ h1{
   overflow:hidden;
 }
 
-.img-container {
-  
-}
+
 
 /* contact form */
 .contact-form {
@@ -438,7 +422,6 @@ input[type=email]:focus {
 /* footer */
 
 footer {
-  height: 100px;
   background-color: rgb(37, 34, 34); 
 }
 
@@ -451,7 +434,7 @@ footer {
 }
 
 .social-networks i {
-  font-size: 160%;
+  font-size: 140%;
   margin: 1%;
   padding: 5%;
   color: #fff;
