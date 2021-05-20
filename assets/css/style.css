@@ -308,8 +308,8 @@ h3{
 }
  
 
-/* contact form 2*/
-#contact-form {
+/* contact form */
+.contact-form {
   text-align: center;
   width: 100%;
   padding-top: 40px;
@@ -321,18 +321,17 @@ h3{
  }
 
 
-#contact-form h1 {
+.contact-form h1 {
   font-size: 36px;
   font-weight: 600;
   padding: 20px 0 10px 0;
 }
 
 
-#contact-form div {
+.contact-form div {
     padding: 10px;
 }
 
- }
 .form-input {
     width: 100%;
     padding: 5px;
@@ -369,7 +368,7 @@ input[type=email]:focus {
       width: 33%;
   }
 
-  #contact-form {
+  .contact-form {
       padding: 20px;
   }
 }
@@ -382,11 +381,11 @@ input[type=email]:focus {
 }
 
 
-#contact-form {
+.contact-form {
   height: 575px;
 }
 
-#contact-form textarea {
+.contact-form textarea {
   height: auto;
 }
 
