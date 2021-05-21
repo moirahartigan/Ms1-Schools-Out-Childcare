@@ -12,7 +12,7 @@ html {
 }
 body {
 	width: 100%;
-	font-family: 'Poppins', sans-serif;
+	font-family:'Poppins', sans-serif;
   height: 100vh;
 	margin: 0;
 	overflow-x: hidden;
@@ -232,6 +232,7 @@ h1{
   width: 100%;
   margin: auto;
   text-align: center;
+  font-family: Lora;
   padding: 80px 0;
   background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(../images/services-banner.jpg);
   background-position: center center;
@@ -387,6 +388,7 @@ input[type=email]:focus {
 #contact-us h2 {
   padding-top: 50px;
   text-align: left;
+  font-family: lora;
 }
 
 #contact-us p {
