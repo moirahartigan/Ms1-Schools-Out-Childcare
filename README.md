@@ -136,7 +136,11 @@ This site was deployed through GitHub Pages using the following steps:
 * w3schools was used as a general source of knowledge 
 
 ### Media
-<!-- where i sourced the images -->
+* Images were sourced from the following:
+    * unsplash
+    * pexels
+    * pixabay
+
 ### Acknowledgements
 * I would like to thank the Slack Community for their endless support.
  
