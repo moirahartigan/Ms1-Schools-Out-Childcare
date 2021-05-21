@@ -294,8 +294,12 @@ h1{
   background: #f44336;
   transition: 1s;
 }
-@media(max-width: 700px) {
+@media(max-width: 800px) {
   .row-sevice {
+    flex-direction:column;
+  }
+  .services {
+    margin:auto;
     flex-direction:column;
   }
 }
