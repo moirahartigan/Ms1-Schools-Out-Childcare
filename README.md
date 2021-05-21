@@ -69,17 +69,20 @@ The user might choose their own route through the page, but the site has been de
 <!--How the information is presented - navagation to features -->
 #### <em>Wireframes</em>
 
-All Wireframes were designed for laptop/computer, iPad/tablet and phone display.
+All Wireframes were designed for laptop/computer, iPad/tablet and phone display. 
 <details>
-<summary>Find Wireframes here</summary>
+<summary>Wireframe Mobile View</summary>
 
-+ markdown list 1
-    + nested list 1
-    + nested list 2
-+ markdown list 2
-
++ ![wireframe-mobile-view](https://user-images.githubusercontent.com/82383538/119188779-0e5e5280-ba73-11eb-89fc-a7702ba13083.png)    
 </details>
-
+<details>
+<summary>Wireframe Tablet View</summary>
++  ![wireframe-tablet-view](https://user-images.githubusercontent.com/82383538/119188953-4b2a4980-ba73-11eb-98e5-89c78b1d3577.png)  
+</details>
+<details>
+<summary>Wireframe desktop View</summary>
++  ![wireframe-desktop-view](https://user-images.githubusercontent.com/82383538/119188963-4ebdd080-ba73-11eb-8492-077ba5078c14.png)  
+</details>
 
 ### Surface
 #### <em>Colour Scheme</em>
