@@ -156,6 +156,11 @@ nav .fa {
   .nav-links ul{
     padding: 30px;
   }
+
+  .logo{
+    max-width: 130px;
+    max-height: 80px;
+  }
 }
 /* ./end nav media */
 
@@ -215,7 +220,7 @@ h1{
   padding-top: 15px 0 25px;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 700px) {
   .row {
     flex-direction: column;
 }
