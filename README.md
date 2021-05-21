@@ -40,30 +40,30 @@ This website is designed to provide the parents of primary school children with 
 # User Experience
 
 ### User Stories
-* As a site visitor, I want to be able to easily navigate through the site and find what I am looking for. 
+* As a site visitor, I want to be able to easily navigate through the site and find the imformation I am looking for. 
 * As a site visitor, I want want to be able to view the site on all my devices.
 * As a site visitor, I want to be satisfied with the information provided.
-* As a site visitor, I want to be able to find contact information easily.
+* As a site visitor, I want to be able to find contact information and the location of the premises easily.
 * As a site visitor, I want to be able to find social media links easily.
 
 ### Strategy
 #### Site Owners Goals 
 The purpose of this site is market the childcare services available and to generate leads from the contact form and convert these leads to sales either for afterschool care or a range of camp options depending on the holiday period. 
 <br>
-The goal in the design was to make it as easy as possible to access information, while striving for a minimalist and user-friendly design.
+The goal for the design was to make it as easy as possible to access information, while striving for a minimalist and user-friendly design.
 ### Scope
-As my skilset is at a beginner stage, I have taken a "Minimal Viable Product" approach to this project and I have created a clean single page site which can be easily navigated either by scrolling through each section or by clicking on the links on the navagation bar - which always remains in view. 
+As my skilset is at a beginner stage, I have taken a "Minimal Viable Product" approach to this project and I have created a clean single page site which can be easily navigated either by scrolling through each section or by clicking on the links on the navagation bar.  
 ### Structure
 <!--How the information will be logically grouped on the the site -->
 #### <em>Website Sections:</em>
 1. Home/landing page
-2. About
+2. Our Philosophy
 3. Services
 4. Contact
 5. Footer
 #### <em>Website Flow</em>
-The flow of the site is simple and makes the logical linear progression from : About Us --> services --> Contact us.
-The user might choose their own route through the page, but the site has been designed to try and maintain their focused interest throughout the journey towards the end goal of completing the contact form and make an enquiry.
+The flow of the site is simple and makes the logical linear progression from : Our Philosophy --> Services --> Contact us.
+The user might choose their own route through the page, but the site has been designed to try and maintain their focused interest throughout the journey towards the end goal of completing the contact form and make an enquiry. A call to action button has been added to the landing page for site visitors to go directly to the contact section if they are a returning user.
 
 #### <em>Interaction Design</em>
 ### Skeleton
