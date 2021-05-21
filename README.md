@@ -68,9 +68,18 @@ The user might choose their own route through the page, but the site has been de
 ### Skeleton
 <!--How the information is presented - navagation to features -->
 #### <em>Wireframes</em>
-<!-- Add screen shot of wireframe here -->
+
 All Wireframes were designed for laptop/computer, iPad/tablet and phone display.
-My figma wireframes can be found here (link)
+<details>
+<summary>Find Wireframes here</summary>
+
++ markdown list 1
+    + nested list 1
+    + nested list 2
++ markdown list 2
+
+</details>
+
 
 ### Surface
 #### <em>Colour Scheme</em>
