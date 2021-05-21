@@ -5,7 +5,8 @@ This website is designed to provide the parents of primary school children with 
 <!-- add link to live site here -->
 [View the Live Website Here](https://moirahartigan.github.io/Ms1-Schools-Out-Childcare/) 
 
-[School's Out ChildCare](/images/am-i-responsive.png)
+![image](https://user-images.githubusercontent.com/82383538/119128780-ffa17c80-ba2d-11eb-9427-2f87c426e807.png)
+
 
 # Table of Contents
 + [User Experience](#user-experience)
