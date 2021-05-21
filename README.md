@@ -97,13 +97,13 @@ I would like to add an online booking option to allow site visitors to book summ
 2. [CSS](https://en.wikipedia.org/wiki/CSS) - To create a nice style and to stand-out
 3. [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - To improve responsivesness
 ### Frameworks Libraries and Programmes Used
-* Font Awesome used for icons.
-* Google Fonts - to import the font-family used in the website: Playfair Display and Courgette
-* GitHub used to host repository.
-* GitPod used to develop project and organise version control.
-* GitHub Pages Pages used to deploy the site.
-* Lighthouse for performance review.
-* Responsinator used to check site was responsive on different screen sizes.
+* [Font Awesome](https://fontawesome.com/) - used for icons.
+* [Google Fonts](https://fonts.google.com/) - to import the font-family used in the website: Playfair Display and Courgette
+* [GitHub](https://github.com/) - used to host repository.
+* [GitPod](https://gitpod.io/workspaces) - used to develop project and organise version control.
+* [GitHub Pages](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/settings/pages) - used to deploy the site.
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse) - for performance review.
+* [Responsinator](https://www.responsinator.com/) - used to check site was responsive on different screen sizes.
 
 ***
 # Testing
