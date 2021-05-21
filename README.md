@@ -17,7 +17,6 @@ This website is designed to provide the parents of primary school children with 
   + [Structure](#structure)
     + [Website Sections](#website-sections)
     + [Website Flow](#website-flow)
-    + [Interaction Design](#interaction-design)
   + [Skeleton](#skeleton)
     + [Wireframes](#wireframes)
   + [Surface](#surface)
@@ -42,19 +41,19 @@ This website is designed to provide the parents of primary school children with 
 # User Experience
 
 ### User Stories
-* As a site visitor, I want to be able to easily navigate through the site and find the imformation I am looking for. 
-* As a site visitor, I want want to be able to view the site on all my devices.
+* As a site visitor, I want to be able to easily navigate through the site and find the information I am looking for. 
+* As a site visitor, I want to be able to view the site on all my devices.
 * As a site visitor, I want to be satisfied with the information provided.
 * As a site visitor, I want to be able to find contact information and the location of the premises easily.
 * As a site visitor, I want to be able to find social media links easily.
 
 ### Strategy
 #### Site Owners Goals 
-The purpose of this site is market the childcare services available and to generate leads from the contact form and convert these leads to sales either for afterschool care or a range of camp options depending on the holiday period. 
+The purpose of this site is to market the childcare services available and to generate leads from the contact form and convert these leads to sales either for afterschool care or a range of camp options depending on the holiday period. 
 <br>
 The goal for the design was to make it as easy as possible to access information, while striving for a minimalist and user-friendly design.
 ### Scope
-As my skilset is at a beginner stage, I have taken a "Minimal Viable Product" approach to this project and I have created a clean single page site which can be easily navigated either by scrolling through each section or by clicking on the links on the navagation bar.  
+As my skillset is at a beginner stage, I have taken a "Minimal Viable Product" approach to this project and I have created a clean single page site which can be easily navigated either by scrolling through each section or by clicking on the links on the navigation bar.  
 ### Structure
 <!--How the information will be logically grouped on the the site -->
 #### <em>Website Sections:</em>
@@ -67,7 +66,6 @@ As my skilset is at a beginner stage, I have taken a "Minimal Viable Product" ap
 The flow of the site is simple and makes the logical linear progression from : Our Philosophy --> Services --> Contact us.
 The user might choose their own route through the page, but the site has been designed to try and maintain their focused interest throughout the journey towards the end goal of completing the contact form and make an enquiry. A call to action button has been added to the landing page for site visitors to go directly to the contact section if they are a returning user.
 
-#### <em>Interaction Design</em>
 ### Skeleton
 <!--How the information is presented - navagation to features -->
 #### <em>Wireframes</em>
@@ -77,17 +75,17 @@ My figma wireframes can be found here (link)
 
 ### Surface
 #### <em>Colour Scheme</em>
-I'm sticking to a simple colour pallette to allow the focus to be on the images and the information provided. The background color is white on all pages after the landing page which I designed to be darker in order to stand out. I used a the below colors to highlight the navagation links and call to action buttons on the landing page, the services page and the contact page. 
+I'm sticking to a simple colour palette to allow the focus to be on the images and the information provided. The background colour is white on all pages after the landing page which I designed to be darker in order to stand out. I used a the below colours to highlight the navigation links and call to action buttons on the landing page, the services page and the contact page. 
 #### <em>Typography</em>
 The font-families chosen are Poppins and Lora. For the consistency I used Poppins for Headings and Titles and for the sub heading of services and Find us, I used Lora.
 # Features
 ### Current Features
 + This is a one page website with 4 main sections.
-+ The transparent navagation bar takes the user to each section with a scrolling effect.
++ The transparent navigation bar takes the user to each section with a scrolling effect.
 + All pages are fully responsive on all screen sizes.
 + All call out buttons are fully responsive and take the user to the contact page.
 ### Future Features
-+ Add a testamonial carousel.
++ Add a testimonial carousel.
 + Add an accordion feature with additional useful information such as FAQ and daily routines schedule.
 I would like to add an online booking option to allow site visitors to book summer camp places directly from the site.
 ***
@@ -95,15 +93,15 @@ I would like to add an online booking option to allow site visitors to book summ
 ### Languages Used
 1. [HTML](https://en.wikipedia.org/wiki/HTML5) - To create a basic site
 2. [CSS](https://en.wikipedia.org/wiki/CSS) - To create a nice style and to stand-out
-3. [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - To improve responsivesness
+3. [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - To improve responsiveness
 ### Frameworks Libraries and Programmes Used
-* Font Awesome used for icons.
-* Google Fonts - to import the font-family used in the website: Playfair Display and Courgette
-* GitHub used to host repository.
-* GitPod used to develop project and organise version control.
-* GitHub Pages Pages used to deploy the site.
-* Lighthouse for performance review.
-* Responsinator used to check site was responsive on different screen sizes.
+* [Font Awesome](https://fontawesome.com/) - used for icons.
+* [Google Fonts](https://fonts.google.com/) - to import the font-family used in the website: Playfair Display and Courgette
+* [GitHub](https://github.com/) - used to host repository.
+* [GitPod](https://gitpod.io/workspaces) - used to develop project and organise version control.
+* [GitHub Pages](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/settings/pages) - used to deploy the site.
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse) - for performance review.
+* [Responsinator](https://www.responsinator.com/) - used to check site was responsive on different screen sizes.
 
 ***
 # Testing
