@@ -304,7 +304,6 @@ h1{
 /*Gallery*/
 
 .gallery {
-  height:100%
   margin: 4em 0;
   position: relative;
   padding-top: 60px;
@@ -380,7 +379,7 @@ input[type=email]:focus {
   margin: 50px 0;
 }
 
-#contact-us h3 {
+#contact-us h2 {
   padding-top: 50px;
   text-align: left;
 }
