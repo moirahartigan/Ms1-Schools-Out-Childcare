@@ -398,7 +398,7 @@ input[type=email]:focus {
 #contact-us p {
   margin: 20px 0;
   padding: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 .map-location {
