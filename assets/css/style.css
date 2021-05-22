@@ -442,7 +442,10 @@ input[type=email]:focus {
       padding: 20px;
   }
 }
-
+@media only screen and (min-width: 1200px) {
+  .form-input {
+      width: 50%;
+  }
 @media screen and (max-width: 425px) {
   iframe {
       height: 250px;
