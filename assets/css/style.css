@@ -385,6 +385,10 @@ input[type=email]:focus {
     outline-color: #f44336;
 }
 
+textarea[type=text]:focus {
+  outline-color: #f44336;
+}
+
 #contact-us {
   margin: 50px 0;
 }
