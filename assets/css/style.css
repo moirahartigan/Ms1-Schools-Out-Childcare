@@ -106,11 +106,14 @@ nav {
   background: transparent;
   position: relative;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .hero-btn:hover {
   border: 1px solid #f44336;
   background: #f44336;
+  color:#fff;
+  text-decoration: none;
   transition: 1s;
 }
 
@@ -247,7 +250,7 @@ h1{
   width: 100%;
   padding: 20px; 
   text-align: center;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .philosophy h1 {
@@ -324,11 +327,14 @@ h1{
   background: transparent;
   position: relative;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .service-btn:hover {
-  border: 1px solid #f44336;
-  background: #f44336;
+  border: 1px solid #0062cc;
+  background: #0062cc;
+  color:#fff;
+  text-decoration: none;
   transition: 1s;
 }
 @media(max-width: 800px) {
@@ -431,7 +437,7 @@ textarea[type=text]:focus {
 
 #contact-us h2 {
   padding-top: 50px;
-  text-align: left;
+  text-align: center;
   font-family: lora;
 }
 
@@ -463,12 +469,14 @@ textarea[type=text]:focus {
     background: rgb(0 123 255 / 50%);
     position: relative;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .contact-btn:hover {
   border: 1px solid #f44336;
   background: #f44336;
   transition: 1s;
+  color: #fff;
 }
 
 
