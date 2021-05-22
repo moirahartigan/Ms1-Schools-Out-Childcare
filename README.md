@@ -73,16 +73,26 @@ All Wireframes were designed for laptop/computer, iPad/tablet and phone display.
 <details>
 <summary>Wireframe Mobile View</summary>
 
-+ ![wireframe-mobile-view](https://user-images.githubusercontent.com/82383538/119188779-0e5e5280-ba73-11eb-89fc-a7702ba13083.png)    
+![wireframe-mobile-view](https://user-images.githubusercontent.com/82383538/119226998-cdfae500-bb03-11eb-9b3e-91d5993c0f7d.png)    
 </details>
+
 <details>
+  
 <summary>Wireframe Tablet View</summary>
-+  ![wireframe-tablet-view](https://user-images.githubusercontent.com/82383538/119188953-4b2a4980-ba73-11eb-98e5-89c78b1d3577.png)  
+  ![wireframe-tablet-view](https://user-images.githubusercontent.com/82383538/119227001-d18e6c00-bb03-11eb-9e93-209fef25e885.png)  
 </details>
+
 <details>
+  
 <summary>Wireframe desktop View</summary>
-+  ![wireframe-desktop-view](https://user-images.githubusercontent.com/82383538/119188963-4ebdd080-ba73-11eb-8492-077ba5078c14.png)  
+  ![wireframe-desktop-view](https://user-images.githubusercontent.com/82383538/119226995-ca675e00-bb03-11eb-8c8e-1ee023946e79.png)  
 </details>
+
+
+
+
+
+
 
 ### Surface
 #### <em>Colour Scheme</em>
