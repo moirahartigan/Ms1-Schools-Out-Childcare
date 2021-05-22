@@ -217,29 +217,27 @@
         <hr class="heading-line">
         <form method="POST" action="https://formdump.codeinstitute.net/">
           <div>
-            <input type="text" id="name-sign-up" class="form-input" placeholder="Name" required>
+            <label for="name"></label>
+            <input type="text" id="name" class="form-input" placeholder="Name" required>
             <br>
           </div>
           <div>
-            <input type="email" id="email-sign-up" class="form-input" placeholder="Email" required>
-
+            <label for="email"></label>
+            <input type="email" id="email" class="form-input" placeholder="Email" required>
             <br>
           </div>
           <div>
-            <input type="text" id="message-subject-sign-up" class="form-input" required placeholder="Subject">
-
+            <label for="subject"></label>
+            <input type="text" id="subject" class="form-input" required placeholder="Subject">
             <br>
           </div>
           <div>
-
-            <textarea rows="8" placeholder="Message" class="form-input" required></textarea>
+            <label for="message"></label>
+            <textarea rows="8" id="message" placeholder="Message" class="form-input" required></textarea>
             <br>
           </div>
-
-          <button type="button" class="contact-btn">Send</button>
+          <button type="submit" class="contact-btn">Send</button>
         </form> <div class=" "></div>
-
-
       </div>
     </div>
 
