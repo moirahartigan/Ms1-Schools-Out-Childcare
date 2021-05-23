@@ -54,17 +54,18 @@ The goal for the design was to make it as easy as possible to access information
 ### Scope
 As my skillset is at a beginner stage, I have taken a "Minimal Viable Product" approach to this project and I have created a clean single page site which can be easily navigated either by scrolling through each section or by clicking on the links on the navigation bar.  
 ### Structure
-The Website is a scrolling single page site with five seperate sections.
+The Website is a scrolling single page site with five separate sections.
 
 #### <em>Website Sections:</em>
 * Home - 
-  On the home page the user will immediatly be drawn to the text in the middle of the screen, which clearly identifies what this business is offering - Out Of School Hours Childcare. Below the main text there is a call to action button that brings the user straight to the contact page. The home page also displayes the company logo and has a responsive navagation bar on the top right hand side of the screen. Once the user scrolls below the home page or clicks onto another section a "Top" button appears to navagate them back to the top of the page to the navagation bar.
+  On the home page the user will immediately be drawn to the text in the middle of the screen, which clearly identifies what this business is offering - Out Of School Hours Childcare. Below the main text there is a call to action button that brings the user straight to the contact page. The home page also displays the company logo and has a responsive navigation bar on the top right hand side of the screen. Once the user scrolls below the home page or clicks onto another section a "Top" button appears to navigate them back to the top of the page to the navigation bar.
 * Our Philosophy - 
   Here users will find information about our core values and beliefs and why our service would be a good fit for any child. The top button appears in this section. 
 * Services -
   Users can see the 3 services we offer easily and the times at which these services are operated. Each service has a call to action button which bring the user to the contact page. The top button appears again in this section.
+* Gallery - Users will find a selection of nine images which have been selected to represent typical activities that the children will be involved with.
 * Contact -
-  Here the user has all the information needed to get in comtact with us, there is a contact form to send an enquiry easily and also the address, contact number and email is provided. In addition there is a find us, sub section, and a responsive google map to identify the location of the business and directions from the nearest main route. This is the final section where the top button appears again. 
+  Here the user has all the information needed to get in contact with us, there is a contact form to send an enquiry easily and also the address, contact number and email is provided. In addition there is a find us, sub section, and a responsive google map to identify the location of the business and directions from the nearest main route. This is the final section where the top button appears again. 
 * Footer -
    On the footer of the website the user can find our social media icons which are linked to each specific page.
 #### <em>Website Flow</em>
@@ -85,21 +86,28 @@ All Wireframes were designed for laptop/computer, iPad/tablet and phone display.
 
 ### Surface
 #### <em>Colour Scheme</em>
-I chose a simple colour palette to allow the focus to be on the images and the information provided. The background colour alternates between a plain white background and an image. I applied an dark overlay to each background image used throughtout the site. This was done to avoid distraction and to draw the users eye to the information sitting on the images. I used a the below colours to highlight the navigation links and call to action buttons on the landing page, the services page and the contact page.
+I chose a simple colour palette to allow the focus to be on the images and the information provided. The background colour alternates between a plain white background and an image. I applied an dark overlay to each background image used throughout the site. This was done to avoid distraction and to draw the users eye to the information sitting on the images. I used a the below colours to highlight the navigation links and call to action buttons on the landing page, the services page and the contact page.
 
+* Palette:
+![Palette:](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/wireframes/ms1-color-palette.png)
 
 #### <em>Typography</em>
-The font-families chosen are Poppins and Lora. For the consistency I used Poppins for Headings and Titles and for the sub heading of services and Find us, I used Lora.
+The font-families chosen are Poppins and Lora. For the consistency I used Poppins for headings and titles and for the sub heading of services and Find us, I used Lora.
+#### <em>Imagery</em>
+Imagery plays a very important part in the design for this website. I chose bright coloured images that complimented each other on the page while highlighting a fun and enjoyable care service.  
+
 # Features
 ### Current Features
-+ This is a one page website with 4 main sections.
++ This is a one page website with five main sections.
 + The transparent navigation bar takes the user to each section with a scrolling effect.
++ A "Top" button is displayed once the user scrolls past the main page.
 + All pages are fully responsive on all screen sizes.
++ For mobile and tablet view there is a hamburger icon which upon clicked slides the nav bar menu out from the right of the screen, a "X" symbol has been added to allow users to collapse the menu
 + All call out buttons are fully responsive and take the user to the contact page.
 ### Future Features
-+ Add a testimonial carousel.
-+ Add an accordion feature with additional useful information such as FAQ and daily routines schedule.
-I would like to add an online booking option to allow site visitors to book summer camp places directly from the site.
++ To add a testimonial carousel.
++ To add an accordion feature with additional useful information such as FAQ and daily routines schedule.
++ To add an online booking option to allow site visitors to book summer camp places directly from the site.
 ***
 # Technologies Used
 ### Languages Used
@@ -113,7 +121,6 @@ I would like to add an online booking option to allow site visitors to book summ
 * [GitPod](https://gitpod.io/workspaces) - used to develop project and organise version control.
 * [GitHub Pages](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/settings/pages) - used to deploy the site.
 * [Lighthouse](https://developers.google.com/web/tools/lighthouse) - for performance review.
-* [Responsinator](https://www.responsinator.com/) - used to check site was responsive on different screen sizes.
 
 ***
 # Testing
@@ -122,7 +129,7 @@ At the completion or heavy editing of sections, I used the following to check my
 + [HTML](https://validator.w3.org/) 
   + All pages came back with no errors.
 + [CSS](https://jigsaw.w3.org/css-validator/)
- + CSS came back with no errors.
+  + All pages came back with no errors.
 ### Lighthouse Testing
 I used Chromes Lighthouse tools to test site performance. I made sure to check both desktop and mobile performances. Below are the screenshots from both tests:
 ***
