@@ -5,7 +5,7 @@ This website is designed to provide the parents of primary school children with 
 <!-- add link to live site here -->
 [View the Live Website Here](https://moirahartigan.github.io/Ms1-Schools-Out-Childcare/) 
 
-![Am I Responsive](https://user-images.githubusercontent.com/82383538/119171536-9e44d200-ba5c-11eb-8890-5fefef48c3ef.png)
+![Am I Responsive](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/wireframes/am-i-responsive.png)
 
 
 # Table of Contents
@@ -40,11 +40,11 @@ This website is designed to provide the parents of primary school children with 
 # User Experience
 
 ### User Stories
-* As a site visitor, I want to be able to easily navigate through the site and find the information I am looking for. 
-* As a site visitor, I want to be able to view the site on all my devices.
-* As a site visitor, I want to be satisfied with the information provided.
-* As a site visitor, I want to be able to find contact information and the location of the premises easily.
-* As a site visitor, I want to be able to find social media links easily.
+* As a site user, I want to be able to easily navigate through the site and find the information I am looking for. 
+* As a site user, I want to be able to view the site on all my devices.
+* As a site user, I want to be satisfied with the information provided.
+* As a site user, I want to be able to find contact information and the location of the premises easily.
+* As a site user, I want to be able to find social media links easily.
 
 ### Strategy
 #### Site Owners Goals 
@@ -54,49 +54,40 @@ The goal for the design was to make it as easy as possible to access information
 ### Scope
 As my skillset is at a beginner stage, I have taken a "Minimal Viable Product" approach to this project and I have created a clean single page site which can be easily navigated either by scrolling through each section or by clicking on the links on the navigation bar.  
 ### Structure
-<!--How the information will be logically grouped on the the site -->
+The Website is a scrolling single page site with five seperate sections.
+
 #### <em>Website Sections:</em>
-1. Home/landing page
-2. Our Philosophy
-3. Services
-4. Contact
-5. Footer
+* Home - 
+  On the home page the user will immediatly be drawn to the text in the middle of the screen, which clearly identifies what this business is offering - Out Of School Hours Childcare. Below the main text there is a call to action button that brings the user straight to the contact page. The home page also displayes the company logo and has a responsive navagation bar on the top right hand side of the screen. Once the user scrolls below the home page or clicks onto another section a "Top" button appears to navagate them back to the top of the page to the navagation bar.
+* Our Philosophy - 
+  Here users will find information about our core values and beliefs and why our service would be a good fit for any child. The top button appears in this section. 
+* Services -
+  Users can see the 3 services we offer easily and the times at which these services are operated. Each service has a call to action button which bring the user to the contact page. The top button appears again in this section.
+* Contact -
+  Here the user has all the information needed to get in comtact with us, there is a contact form to send an enquiry easily and also the address, contact number and email is provided. In addition there is a find us, sub section, and a responsive google map to identify the location of the business and directions from the nearest main route. This is the final section where the top button appears again. 
+* Footer -
+   On the footer of the website the user can find our social media icons which are linked to each specific page.
 #### <em>Website Flow</em>
 The flow of the site is simple and makes the logical linear progression from : Our Philosophy --> Services --> Contact us.
-The user might choose their own route through the page, but the site has been designed to try and maintain their focused interest throughout the journey towards the end goal of completing the contact form and make an enquiry. A call to action button has been added to the landing page for site visitors to go directly to the contact section if they are a returning user.
+The user might choose their own route through the page, but the site has been designed to try and maintain their focused interest throughout the journey towards the end goal of completing the contact form and make an enquiry. A call to action button has been added to the landing page for users to go directly to the contact section if they wish.
 
 ### Skeleton
-<!--How the information is presented - navagation to features -->
+
 #### <em>Wireframes</em>
 
 All Wireframes were designed for laptop/computer, iPad/tablet and phone display. 
-<details>
-<summary>Wireframe Mobile View</summary>
-
-![wireframe-mobile-view](https://user-images.githubusercontent.com/82383538/119226998-cdfae500-bb03-11eb-9b3e-91d5993c0f7d.png)    
-</details>
-
-<details>
-  
-<summary>Wireframe Tablet View</summary>
-  ![wireframe-tablet-view](https://user-images.githubusercontent.com/82383538/119227001-d18e6c00-bb03-11eb-9e93-209fef25e885.png)  
-</details>
-
-<details>
-  
-<summary>Wireframe desktop View</summary>
-  ![wireframe-desktop-view](https://user-images.githubusercontent.com/82383538/119226995-ca675e00-bb03-11eb-8c8e-1ee023946e79.png)  
-</details>
 
 
-
-
-
+[Wireframe for Mobile](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/wireframes/wireframe-mobile-view.pdf)    
+[Wireframe for Tablet](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/wireframes/wireframe-tablet-view.pdf)  
+[Wireframe for Desktop](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/wireframes/wireframe-desktop-view.pdf)  
 
 
 ### Surface
 #### <em>Colour Scheme</em>
-I'm sticking to a simple colour palette to allow the focus to be on the images and the information provided. The background colour is white on all pages after the landing page which I designed to be darker in order to stand out. I used a the below colours to highlight the navigation links and call to action buttons on the landing page, the services page and the contact page. 
+I chose a simple colour palette to allow the focus to be on the images and the information provided. The background colour alternates between a plain white background and an image. I applied an dark overlay to each background image used throughtout the site. This was done to avoid distraction and to draw the users eye to the information sitting on the images. I used a the below colours to highlight the navigation links and call to action buttons on the landing page, the services page and the contact page.
+
+
 #### <em>Typography</em>
 The font-families chosen are Poppins and Lora. For the consistency I used Poppins for Headings and Titles and for the sub heading of services and Find us, I used Lora.
 # Features
