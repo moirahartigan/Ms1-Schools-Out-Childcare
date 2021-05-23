@@ -17,6 +17,26 @@ body {
 	margin: 0;
 	overflow-x: hidden;
 }
+/* <!-- Back to top button code found here https://www.w3schools.com/howto/howto_js_scroll_to_top.asp --> */
+#myBtn {
+  display: none; 
+  position: fixed;
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color:#f44336; 
+  color:#fff;
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
 
 /* Navagation and Header */
 .header {
@@ -263,6 +283,7 @@ h1{
 @media(max-width: 700px) {
   .row {
     flex-direction: column;
+    padding: 20px;
 }
 }
 
@@ -507,6 +528,7 @@ textarea[type=text]:focus {
       padding: 20px;
   }
 }
+
 
 
 /* footer */
