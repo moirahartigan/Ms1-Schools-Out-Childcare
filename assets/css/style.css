@@ -564,3 +564,21 @@ footer p {
   margin: 0 auto;
 }
 /* end footer */
+
+/* 404 Error Page */
+
+#oops {
+  margin-top: 3em;
+  font-size: 75%;
+}
+
+#oops p {
+  margin-top: 2em;
+}
+
+#myoops {
+  margin: 2em 0 0 0;
+  width: 90%;
+  height: auto;
+}
+
