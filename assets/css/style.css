@@ -274,11 +274,8 @@ h1{
 .philosophy h1 {
   padding-top: 0;
 }
-.philosophy p {
-  padding-top: 15px 0 25px;
-}
 
-@media(max-width: 700px) {
+@media(max-width: 1200px) {
   .row {
     flex-direction: column;
     padding: 20px;
