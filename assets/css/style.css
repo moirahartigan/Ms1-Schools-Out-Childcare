@@ -10,32 +10,35 @@ html {
   box-sizing: border-box;
   border: none;
 }
+
 body {
-	width: 100%;
-	font-family:'Poppins', sans-serif;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
   height: 100vh;
-	margin: 0;
-	overflow-x: hidden;
+  margin: 0;
+  overflow-x: hidden;
 }
+
 /* <!-- Back to top button code found here https://www.w3schools.com/howto/howto_js_scroll_to_top.asp --> */
 #myBtn {
-  display: none; 
+  display: none;
   position: fixed;
-  bottom: 20px; 
-  right: 30px; 
-  z-index: 1; 
-  border: none; 
-  outline: none; 
-  background-color:#f44336; 
-  color:#fff;
-  cursor: pointer; 
-  padding: 15px; 
-  border-radius: 10px; 
-  font-size: 18px; 
- }
+  bottom: 20px;
+  right: 30px;
+  z-index: 1;
+  border: none;
+  outline: none;
+  background-color: #f44336;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #555;
+  /* Add a dark-grey background on hover */
 }
 
 /* Navagation and Header */
@@ -59,7 +62,7 @@ nav {
 .nav-links {
   flex: 1;
   text-align: right;
- 
+
 }
 
 .nav-links ul li {
@@ -108,7 +111,7 @@ nav {
 
 .text-box h1 {
   font-size: 62px;
-  }
+}
 
 .text-box p {
   color: #fff;
@@ -132,7 +135,7 @@ nav {
 .hero-btn:hover {
   border: 1px solid #f44336;
   background: #f44336;
-  color:#fff;
+  color: #fff;
   text-decoration: none;
   transition: 1s;
 }
@@ -174,18 +177,19 @@ nav .fa {
     font-size: 22px;
     cursor: pointer;
   }
-  .nav-links ul{
+
+  .nav-links ul {
     padding: 30px;
   }
 
-  .logo{
+  .logo {
     width: 130px;
     height: 80px;
   }
 }
 
 @media(max-width: 1200px) {
-  
+
   .nav-links ul li {
     display: block;
   }
@@ -209,46 +213,45 @@ nav .fa {
     font-size: 22px;
     cursor: pointer;
   }
-  .nav-links ul{
+
+  .nav-links ul {
     padding: 30px;
   }
 
-  .logo{
+  .logo {
     max-width: 130px;
     max-height: 80px;
   }
 }
-
-
-/* ./end nav media */
+/* end nav media */
 
 .heading-line {
-	width: 50%;
-	margin: auto;
-	padding-top: 1%;
-	margin-top: 1%;
+  width: 50%;
+  margin: auto;
+  padding-top: 1%;
+  margin-top: 1%;
 }
+
 .short-line {
-	width: 50%;
-	margin: auto;
-	padding-bottom: 2%;
-	margin-top: 2%;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 2%;
+  margin-top: 2%;
 }
 
-/***** Our Philosophy *****/
+/* Our Philosophy  */
 
-h1{
+h1 {
   font-size: 36px;
   font-weight: 600;
   text-align: center;
 }
 
-
 .our-philosophy {
   display: block;
   width: 100%;
- object-fit: cover;
- overflow: hidden;
+  object-fit: cover;
+  overflow: hidden;
   margin: auto;
   text-align: center;
   padding: 40px 0;
@@ -267,7 +270,7 @@ h1{
 .philosophy img {
   width: 100%;
   height: 100%;
-  padding: 20px; 
+  padding: 20px;
   text-align: center;
   border-radius: 30px;
 }
@@ -280,12 +283,13 @@ h1{
   .row-philosophy {
     flex-direction: column;
     padding: 20px;
+  }
 }
-}
+/* end Our Philosophy  */
 
-/***** Services *****/
+/* Services  */
 
-.services{
+.services {
   width: 100%;
   margin: auto;
   text-align: center;
@@ -300,9 +304,8 @@ h1{
 .custom-title {
   font-size: 36px;
   font-weight: 600;
-  color:#fff;
+  color: #fff;
 }
-
 
 .row-sevice {
   margin: 5%;
@@ -310,7 +313,7 @@ h1{
   justify-content: space-between;
 }
 
-.services-title{
+.services-title {
   text-align: center;
   font-weight: 600;
   margin: 10px 0;
@@ -326,7 +329,8 @@ h1{
   box-sizing: border-box;
   transition: 0.5s;
 }
-.services-cols p{
+
+.services-cols p {
   color: black;
 }
 
@@ -334,6 +338,7 @@ h1{
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 
 }
+
 .service-btn {
   display: inline-block;
   text-decoration: none;
@@ -350,21 +355,22 @@ h1{
 .service-btn:hover {
   border: 1px solid #0062cc;
   background: #0062cc;
-  color:#fff;
+  color: #fff;
   text-decoration: none;
   transition: 1s;
 }
+
 @media(max-width: 800px) {
   .row-sevice {
-    flex-direction:column;
+    flex-direction: column;
   }
+
   .services {
-    margin:auto;
-    flex-direction:column;
+    margin: auto;
+    flex-direction: column;
   }
 }
-
-
+/* end services */
 
 /*Gallery*/
 
@@ -391,7 +397,7 @@ h1{
 #gallery img {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
   object-fit: cover;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 @media(max-width: 700px) {
@@ -400,6 +406,7 @@ h1{
     margin-right: auto;
   }
 }
+/* end gallery */
 
 /* contact form */
 .contact-form {
@@ -413,23 +420,21 @@ h1{
   background-position: center center;
   background-size: cover;
   position: relative;
- }
-
+}
 
 .contact-form h1 {
   font-size: 36px;
   font-weight: 600;
- }
-
+}
 
 .contact-form div {
-    padding: 10px;
+  padding: 10px;
 }
 
 .form-input {
-    width: 100%;
-    padding: 5px;
-    border-radius: 3px 3px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px 3px;
 }
 
 .content {
@@ -437,11 +442,11 @@ h1{
 }
 
 input[type=text]:focus {
-    outline-color: #f44336;
+  outline-color: #f44336;
 }
 
 input[type=email]:focus {
-    outline-color: #f44336;
+  outline-color: #f44336;
 }
 
 textarea[type=text]:focus {
@@ -467,7 +472,8 @@ textarea[type=text]:focus {
 .map-location {
   padding: 20px;
   margin-top: auto;
-} 
+}
+
 .contact-form {
   height: 100%;
 }
@@ -477,16 +483,16 @@ textarea[type=text]:focus {
 }
 
 .contact-btn {
-    display: inline-block;
-    text-decoration: none;
-    color: #fbfbfb;
-    border: 1px solid rgb(0 123 255 / 25%);
-    padding: 12px 34px;
-    font-size: 15px;
-    background: rgb(0 123 255 / 50%);
-    position: relative;
-    cursor: pointer;
-    border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fbfbfb;
+  border: 1px solid rgb(0 123 255 / 25%);
+  padding: 12px 34px;
+  font-size: 15px;
+  background: rgb(0 123 255 / 50%);
+  position: relative;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 .contact-btn:hover {
@@ -496,48 +502,47 @@ textarea[type=text]:focus {
   color: #fff;
 }
 
-
 /* media query */
 @media only screen and (min-width: 768px) {
   .form-input {
-      width: 33%;
+    width: 33%;
   }
 
   .contact-form {
-      padding: 20px;
+    padding: 20px;
   }
 }
 
 @media screen and (max-width: 425px) {
   iframe {
-      height: 250px;
-      width: 250px;
+    height: 250px;
+    width: 250px;
   }
 }
 
 @media only screen and (max-width: 1200px) {
   .form-input {
-      width: 80%;
+    width: 80%;
   }
 
   .contact-form {
-      padding: 20px;
+    padding: 20px;
   }
 }
-
+/* end contact form */
 
 
 /* footer */
 
 footer {
-  background-color: rgb(37, 34, 34); 
+  background-color: rgb(37, 34, 34);
 }
 
 .social-networks {
   text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
   display: inline;
 }
 
@@ -547,13 +552,15 @@ footer {
   padding: 5%;
   color: #fff;
 }
-.social-networks i:hover{
-  color:#f44336;
+
+.social-networks i:hover {
+  color: #f44336;
 }
+
 footer p {
   text-align: center;
   color: inherit;
   padding: 0;
   margin: 0 auto;
 }
-
+/* end footer */
