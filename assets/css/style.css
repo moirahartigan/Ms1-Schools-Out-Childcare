@@ -567,18 +567,14 @@ footer p {
 
 /* 404 Error Page */
 
-#oops {
-  margin-top: 3em;
-  font-size: 75%;
+body {
+  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(../images/banner-img.jpg); 
+  background-position: center center;
+  background-size: cover;
+  position:relative;
+  color: white;
 }
-
-#oops p {
-  margin-top: 2em;
+.page-wrap {
+  min-height: 100vh;
 }
-
-#myoops {
-  margin: 2em 0 0 0;
-  width: 90%;
-  height: auto;
-}
-
+/* end 404 error */
