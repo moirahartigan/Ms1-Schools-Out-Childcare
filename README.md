@@ -3,7 +3,7 @@
 This website is designed to provide the parents of primary school children with information regarding childcare services during out of school hours and during school holidays.
 ## Demo
 <!-- add link to live site here -->
-[View the Live Website Here](https://moirahartigan.github.io/Ms1-Schools-Out-Childcare/{:target="_blank"})
+[View the Live Website Here](https://moirahartigan.github.io/Ms1-Schools-Out-Childcare/){:target="_blank" rel="noopener"}
 
 ![Am I Responsive](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/am-i-responsive.png)
 
