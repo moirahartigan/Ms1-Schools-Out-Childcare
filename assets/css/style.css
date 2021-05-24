@@ -23,7 +23,7 @@ body {
   position: fixed;
   bottom: 20px; 
   right: 30px; 
-  z-index: 99; 
+  z-index: 1; 
   border: none; 
   outline: none; 
   background-color:#f44336; 
@@ -32,7 +32,7 @@ body {
   padding: 15px; 
   border-radius: 10px; 
   font-size: 18px; 
-}
+ }
 
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
@@ -141,8 +141,6 @@ nav .fa {
   display: none;
 }
 
-/* top button */
-
 
 @media(max-width: 700px) {
   .text-box h1 {
@@ -181,8 +179,8 @@ nav .fa {
   }
 
   .logo{
-    max-width: 130px;
-    max-height: 80px;
+    width: 130px;
+    height: 80px;
   }
 }
 
@@ -196,7 +194,7 @@ nav .fa {
     position: fixed;
     background: #f44336;
     height: 100vh;
-    width: 200px;
+    width: 150px;
     top: 0;
     right: -200px;
     text-align: left;
