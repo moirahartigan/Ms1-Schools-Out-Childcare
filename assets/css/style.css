@@ -276,7 +276,7 @@ h1{
 }
 
 @media(max-width: 1200px) {
-  .row {
+  .row-philosophy {
     flex-direction: column;
     padding: 20px;
 }
