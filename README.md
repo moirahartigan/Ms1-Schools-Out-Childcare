@@ -224,16 +224,18 @@ At the completion or heavy editing of sections, I used the following to check my
 
 
 #### <em>HTML Validator</em>
-<p align="center">  
+
+  <p align="center">  
  <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/html-validator.png"> 
-  </p>
+ </p>
   
   
 * The warning returned from the html validator identified the navigation section was lacking a heading - however a business logo was used in place of a heading for this section. 
 #### <em>CSS Validator</em>
- <p align="center">  
- <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/css-validation.png">
-    </p>
+
+  <p align="center">  
+  <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/css-validation.png">
+ </p>
     
     
 * All pages came back with no errors.
