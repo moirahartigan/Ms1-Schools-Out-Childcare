@@ -567,7 +567,7 @@ footer p {
 
 /* 404 Error Page */
 
-body {
+.error {
   background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../images/hero-img.jpg);
   background-position: center center;
   background-size: cover;
