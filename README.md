@@ -54,81 +54,110 @@ The goal for the design was to make it as easy as possible to access information
 ### Scope
 As my skillset is at a beginner stage, I have taken a "Minimal Viable Product" approach to this project and I have created a clean single page site which can be easily navigated either by scrolling through each section or by clicking on the links on the navigation bar.  
 ### Structure
-The Website is a scrolling single page site with five separate sections.
+The Website is a scrolling single page site broken down into the following sections:
 
 #### <em>Website Sections:</em>
 * #### Home - 
   * On the home page the user will immediately be drawn to the text in the middle of the screen, which clearly identifies what this business is offering - Out Of School Hours Childcare. 
   * The image has had a gradient applied in order to keep the users focus on the text.
   * Below the main text there is a call to action button that brings the user straight to the contact page. 
+ <br>
 <p align="center">
 <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/home-pg.png">
 </p>
 
-* #### Navigation bar - 
-  * The navigation bar is displayed on top right hand side of the screen. Once the user scrolls below the home page or clicks onto another section a "Top" button appears to navigate them back to the top of the page to the navigation bar.
+
+ * #### Navigation bar - 
+   * The navigation bar is displayed on top right hand side of the screen. Once the user scrolls below the home page or clicks onto another section a "Top" button appears to navigate them back to the top of the page to the navigation bar.
+
+<br>
 
 <p align="center">
   <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/nav-bar.png"> 
  </p> 
-  
+ 
+ <br>
+ 
   * For mobile and tablet view there is a hamburger icon which upon clicked slides the nav bar menu out from the right of the screen. I have designed the navbar within this view to remain open after the user has clicked on a link and once they are satisfied with thier selection the user will click on the "x" to collapse the menu.
-
+<br>
 <p align="center">
-  <img src="">
+  <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/nav-bar-mobile.png">
     </p>
+
 
 * #### Our Philosophy - 
   * Here users will find information about our core values and beliefs and why our service would be a good fit for any child. The top button appears in this section. 
-  
+  <br>
   <p align="center">
   <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/our-philosophy.png">
   </p> 
-  
+ 
+ 
 * #### Services -
   * Users can see the 3 services we offer easily and the times at which these services are operated. Each service has a call to action button which bring the user to the contact page. 
   * The top button appears again in this section.
   * The background image here has again had a gradient applied to maintain the users focus on the text.
+<br>
 
   <p align="center">
    <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/services.png">
     </p> 
+   <br>
    
   * For mobile and tablet view the layout has been changed to a virtical view
+<br>
 
  <p align="center">
    <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/services-mobile-view.png">
    </p> 
+  
    
 * #### Gallery -
   * Users will find a selection of nine images which have been selected to represent typical activities that the children will be involved with.
+<br>
 
  <p align="center">
    <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/gallery.png">
   </p>
   
+  
 * #### Contact -
   * The contact form has been purposfully kept simple with required input boxes and again the background image had had a gradient applied as with the previous sections. 
-                                                                                                       
+    <br>
+    
  <p align="center">
   <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/contact.png">
     </p>
-  
-  * There is a find us, sub section, and a responsive google map to identify the location of the business and directions from the nearest main route. 
-  * The user will find the business address, a contact number and an email address.
-  * This is the final section where the top button appears again. 
+    
+  * #### Find us -
+    * There is a find us, sub section, and a responsive google map to identify the location of the business and directions from the nearest main route. 
+    * The user will find the business address, a contact number and an email address.
+    * This is the final section where the top button appears again. 
+<br>
 
-<p align="center">
-  <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/find-us.png">
-    </p>
+  <p align="center">
+    <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/find-us.png">
+      </p>
+ 
   
 * #### Footer -
    On the footer of the website the user can find our social media icons which are linked to each specific page.
+   <br>
    
    <p align="center">
    <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/footer.png">
      </p>
    
+  
+ * #### 404 Error -
+   * A 404 error page has been added to redirect users back to the home page.
+<br>
+
+<p align="center">
+  <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/404.png" width="650" height="350">
+    </p>
+<br>
+
 #### <em>Website Flow</em>
 The flow of the site is simple and makes the logical linear progression from : Our Philosophy --> Services --> Contact us.
 The user might choose their own route through the page, but the site has been designed to try and maintain their focused interest throughout the journey towards the end goal of completing the contact form and make an enquiry. A call to action button has been added to the landing page for users to go directly to the contact section if they wish.
@@ -167,6 +196,7 @@ Imagery plays a very important part in the design for this website. I chose brig
 + A "Top" button is displayed once the user scrolls past the main page.
 + All pages are fully responsive on all screen sizes.
 + All call out buttons are fully responsive and take the user to the contact page.
+
 ### Future Features
 + To add a testimonial carousel.
 + To add an accordion feature with additional useful information such as FAQ and daily routines schedule.
@@ -189,17 +219,29 @@ Imagery plays a very important part in the design for this website. I chose brig
 # Testing
 ### Validator Testing
 At the completion or heavy editing of sections, I used the following to check my code for syntax errors:
-+ [HTML](https://validator.w3.org/) 
-  + All pages came back with no errors.  
-+ ![CSS](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/css-validation.png)
-  + All pages came back with no errors.
+
+
+#### <em>HTML Validator</em>
+<p align="center">  
+ <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/html-validator.png"> 
+  </p>
+  
+  
+* The warning returned was for the navigation section lascking a heading - A business logo was used in place of a heading. 
+#### <em>CSS Validator</em>
+ <p align="center">  
+ <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/css-validation.png">
+    </p>
+    
+    
+* All pages came back with no errors.
  
 ### Lighthouse Testing
 I used Chromes Lighthouse tools to test site performance. I made sure to check both desktop and mobile performances. Below are the screenshots from both tests:
 #### <em>lighthouse Mobile</em>
-![Mobile](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/lighthouse-test-mobile.png)
+![Mobile](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/lighthouse-mobile.png)
 #### <em>lighthouse Desktop</em>
-![Mobile](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/Lighthoust-test-pc.png)
+![Desktop](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/lighthouse-desktop.png)
 ***
 # Deployment
 ### Deployment through GitHub Pages
@@ -221,7 +263,8 @@ This site was deployed through GitHub Pages using the following steps:
 * [w3schools](https://www.w3schools.com/) was used as a general source of knowledge 
 * [MND Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction) was used as a general sourse of knowledge.
 * [youtube](https://www.youtube.com/watch?v=44axq8Absis) This tutorial was used to learn how to achieve a transparent navigation bar.
-* [stack Overflow](https://stackoverflow.com/) was used to assist during debugging.
+* [Stack Overflow](https://stackoverflow.com/) was used to assist during debugging.
+* [github docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) was used to create the 404 page.
 
 ### Media
 * Images were sourced from the following:
