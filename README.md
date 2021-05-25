@@ -61,16 +61,16 @@ The Website is a scrolling single page site with five separate sections.
   * On the home page the user will immediately be drawn to the text in the middle of the screen, which clearly identifies what this business is offering - Out Of School Hours Childcare. 
   * The image has had a gradient applied in order to keep the users focus on the text.
   * Below the main text there is a call to action button that brings the user straight to the contact page. 
-
-![Home](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/home-pg.png) 
-
+<p align="center">
+<img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/home-pg.png">
+</p>
 
 * #### Navigation bar - 
   * The navigation bar is displayed on top right hand side of the screen. Once the user scrolls below the home page or clicks onto another section a "Top" button appears to navigate them back to the top of the page to the navigation bar.
 
-
-  ![navbar](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/nav-bar.png) 
-  
+<p align="center">
+  <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/nav-bar.png"> 
+ </p> 
   
   * For mobile and tablet view there is a hamburger icon which upon clicked slides the nav bar menu out from the right of the screen. I have designed the navbar within this view to remain open after the user has clicked on a link and once they are satisfied with thier selection the user will click on the "x" to collapse the menu.
 
@@ -78,52 +78,53 @@ The Website is a scrolling single page site with five separate sections.
 * #### Our Philosophy - 
   * Here users will find information about our core values and beliefs and why our service would be a good fit for any child. The top button appears in this section. 
   
-  
-  ![Our Philosophy](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/our-philosophy.png)
-  
+  <p align="center">
+  <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/our-philosophy.png">
+  </p> 
   
 * #### Services -
   * Users can see the 3 services we offer easily and the times at which these services are operated. Each service has a call to action button which bring the user to the contact page. 
   * The top button appears again in this section.
   * The background image here has again had a gradient applied to maintain the users focus on the text.
 
-
-   ![Services](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/services.png)
-   
+  <p align="center">
+   <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/services.png">
+    </p> 
    
   * For mobile and tablet view the layout has been changed to a virtical view
 
-
-   ![Services](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/services-mobile-view.png)
-   
+ <p align="center">
+   <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/services-mobile-view.png">
+   </p> 
    
 * #### Gallery -
   * Users will find a selection of nine images which have been selected to represent typical activities that the children will be involved with.
 
-
-  ![Gallery](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/gallery.png)
-  
+ <p align="center">
+   <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/gallery.png">
+  </p>
   
 * #### Contact -
   * The contact form has been purposfully kept simple with required input boxes and again the background image had had a gradient applied as with the previous sections. 
-
-  ![Contact us](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/contact.png)
-  
+                                                                                                       
+ <p align="center">
+  <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/contact.png">
+    </p>
   
   * There is a find us, sub section, and a responsive google map to identify the location of the business and directions from the nearest main route. 
   * The user will find the business address, a contact number and an email address.
   * This is the final section where the top button appears again. 
 
-
-  ![Find us](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/find-us.png)
-  
+<p align="center">
+  <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/find-us.png">
+    </p>
   
 * #### Footer -
    On the footer of the website the user can find our social media icons which are linked to each specific page.
    
-   
-   ![Footer](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/footer.png)
-   
+   <p align="center">
+   <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/footer.png">
+     </p>
    
 #### <em>Website Flow</em>
 The flow of the site is simple and makes the logical linear progression from : Our Philosophy --> Services --> Contact us.
@@ -136,9 +137,9 @@ The user might choose their own route through the page, but the site has been de
 All Wireframes were designed for laptop/computer, iPad/tablet and phone display. 
 
 
-[Wireframe for Mobile](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/wireframes/wireframe-mobile-view.pdf)    
-[Wireframe for Tablet](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/wireframes/wireframe-tablet-view.pdf)  
-[Wireframe for Desktop](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/wireframes/wireframe-desktop-view.pdf)  
+[Wireframe for Mobile](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/assets/wireframes/wireframe-mobile-view.pdf)    
+[Wireframe for Tablet](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/assets/wireframes/wireframe-tablet-view.pdf)  
+[Wireframe for Desktop](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/assets/wireframes/wireframe-desktop-view.pdf)  
 
 
 ### Surface
@@ -146,8 +147,11 @@ All Wireframes were designed for laptop/computer, iPad/tablet and phone display.
 I chose a simple colour palette to allow the focus to be on the images and the information provided. The background colour alternates between a plain white background and an image. I applied an dark overlay to each background image used throughout the site. This was done to avoid distraction and to draw the users eye to the information sitting on the images. I used a the below colours to highlight the navigation links and call to action buttons on the landing page, the services page and the contact page.
 
 * Palette:
-![Palette:](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/wireframes/ms1-color-palette.png)
-
+                                                                                                      
+<p align="center">                                                                                           
+ <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/ms1-color-palette.png">
+</p>
+                                                                                                                   
 #### <em>Typography</em>
 The font-families chosen are Poppins and Lora. For the consistency I used Poppins for headings and titles and for the sub heading of services and Find us, I used Lora.
 #### <em>Imagery</em>
