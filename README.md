@@ -2,7 +2,7 @@
 ## **Code Institute - Milestone project 1: _User-Centric Frontend Development_** 
 This website is designed to provide the parents of primary school children with information regarding childcare services during out of school hours and during school holidays.
 ## Demo
-<!-- add link to live site here -->
+
 [View the Live Website Here](https://moirahartigan.github.io/Ms1-Schools-Out-Childcare/)
 
 <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/am-i-responsive.png">
@@ -48,7 +48,7 @@ This website is designed to provide the parents of primary school children with 
 
 ### Strategy
 #### Site Owners Goals 
-The purpose of this site is to market the childcare services available and to generate leads from the contact form and convert these leads to sales either for afterschool care or a range of camp options depending on the holiday period. 
+The purpose of this site is to market the childcare services available, and to generate leads from the contact form. These leads will then be convert to sales either for afterschool care or a range of camp options depending on the holiday period. 
 <br>
 The goal for the design was to make it as easy as possible to access information, while striving for a minimalist and user-friendly design.
 ### Scope
@@ -68,7 +68,7 @@ The Website is a scrolling single page site broken down into the following secti
 
 
  * #### Navigation bar - 
-   * The navigation bar is displayed on top right hand side of the screen. Once the user scrolls below the home page or clicks onto another section a "Top" button appears to navigate them back to the top of the page to the navigation bar.
+   * The navigation bar is displayed on top right hand side of the screen. Once the user scrolls below the home page or clicks onto another section a "Top" button appears to navigate them back to the top of the page, to the navigation bar.
 
 <br>
 
@@ -78,7 +78,7 @@ The Website is a scrolling single page site broken down into the following secti
  
  <br>
  
-  * For mobile and tablet view there is a hamburger icon which upon clicked slides the nav bar menu out from the right of the screen. I have designed the navbar within this view to remain open after the user has clicked on a link and once they are satisfied with thier selection the user will click on the "x" to collapse the menu.
+  * For mobile and tablet view there is a hamburger icon which upon clicked slides the nav bar menu out from the right of the screen. I have designed the navbar within this view to remain open after the user has clicked on a link and once they are satisfied with their selection the user will click on the "x" to collapse the menu.
 <br>
 <p align="center">
   <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/nav-bar-mobile.png">
@@ -86,7 +86,7 @@ The Website is a scrolling single page site broken down into the following secti
 
 
 * #### Our Philosophy - 
-  * Here users will find information about our core values and beliefs and why our service would be a good fit for any child. The top button appears in this section. 
+  * Here users will find information about our core values and beliefs and why our service would be a good fit for any child. The top button appears in this section to take the user back to the navigation bar. 
   <br>
   <p align="center">
   <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/our-philosophy.png">
@@ -104,7 +104,7 @@ The Website is a scrolling single page site broken down into the following secti
     </p> 
    <br>
    
-  * For mobile and tablet view the layout has been changed to a virtical view
+  * For mobile and tablet view the layout has been changed to a vertical view.
 <br>
 
  <p align="center">
@@ -122,7 +122,7 @@ The Website is a scrolling single page site broken down into the following secti
   
   
 * #### Contact -
-  * The contact form has been purposfully kept simple with required input boxes and again the background image had had a gradient applied as with the previous sections. 
+  * The contact form has been kept to a simple layout with required input boxes. Again the background image has had a gradient applied to coincide with the previous sections. 
     <br>
     
  <p align="center">
@@ -130,8 +130,8 @@ The Website is a scrolling single page site broken down into the following secti
     </p>
     
   * #### Find us -
-    * There is a find us, sub section, and a responsive google map to identify the location of the business and directions from the nearest main route. 
-    * The user will find the business address, a contact number and an email address.
+    * There is a find us, sub section, and a responsive google map to identify the location of the business along with directions from the nearest main route. 
+    * The user will find the business address, a contact number and an email address here also.
     * This is the final section where the top button appears again. 
 <br>
 
@@ -160,7 +160,7 @@ The Website is a scrolling single page site broken down into the following secti
 
 #### <em>Website Flow</em>
 The flow of the site is simple and makes the logical linear progression from : Our Philosophy --> Services --> Contact us.
-The user might choose their own route through the page, but the site has been designed to try and maintain their focused interest throughout the journey towards the end goal of completing the contact form and make an enquiry. A call to action button has been added to the landing page for users to go directly to the contact section if they wish.
+The user might choose their own route through the page, but the site has been designed to try and maintain their focused interest throughout the journey towards the end goal of completing the contact form and make an enquiry. A call to action button has been added to both the home page, and the services page to allow the user to go directly to the contact section if they wish.
 
 ### Skeleton
 
@@ -176,7 +176,7 @@ All Wireframes were designed for laptop/computer, iPad/tablet and phone display.
 
 ### Surface
 #### <em>Colour Scheme</em>
-I chose a simple colour palette to allow the focus to be on the images and the information provided. The background colour alternates between a plain white background and an image. I applied an dark overlay to each background image used throughout the site. This was done to avoid distraction and to draw the users eye to the information sitting on the images. I used a the below colours to highlight the navigation links and call to action buttons on the landing page, the services page and the contact page.
+I chose a simple colour palette to allow the focus to be on the images and the information provided. The background colour alternates between a plain white background and an image. I applied an dark gradient overlay to each background image used throughout the site. This was done to avoid distraction and to draw the users eye to the information sitting on the images. I used the below colours to highlight the navigation links and call to action buttons on the landing page, the services page and the contact page.
 
 * Palette:
                                                                                                       
@@ -185,9 +185,9 @@ I chose a simple colour palette to allow the focus to be on the images and the i
 </p>
                                                                                                                    
 #### <em>Typography</em>
-The font-families chosen are Poppins and Lora. For the consistency I used Poppins for headings and titles and for the sub heading of services and Find us, I used Lora.
+The font-families chosen are Poppins and Lora. For consistency I used Poppins for headings and titles and Lora was used for the sub heading of services and Find us.
 #### <em>Imagery</em>
-Imagery plays a very important part in the design for this website. I chose bright coloured images that complimented each other on the page while highlighting a fun and enjoyable care service.  
+Imagery plays a very important part in the design for this website. I chose bright colourful images that complimented each other on the page while highlighting a fun and enjoyable care service.  
 
 # Features
 ### Current Features
@@ -200,16 +200,18 @@ Imagery plays a very important part in the design for this website. I chose brig
 ### Future Features
 + To add a testimonial carousel.
 + To add an accordion feature with additional useful information such as FAQ and daily routines schedule.
++ To animate the gallery section.
 + To add an online booking option to allow site visitors to book summer camp places directly from the site.
 ***
 # Technologies Used
 ### Languages Used
-1. [HTML](https://en.wikipedia.org/wiki/HTML5) - To create a basic site
-2. [CSS](https://en.wikipedia.org/wiki/CSS) - To create a nice style and to stand-out
-3. [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - To improve responsiveness
+1. [HTML](https://en.wikipedia.org/wiki/HTML5) - To create a basic site.
+2. [CSS](https://en.wikipedia.org/wiki/CSS) - To create a nice style and to stand-out.
+3. [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - To improve responsiveness.
+4. [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - To improve the navigation bar in mobile view.
 ### Frameworks Libraries and Programmes Used
 * [Font Awesome](https://fontawesome.com/) - used for icons.
-* [Google Fonts](https://fonts.google.com/) - to import the font-family used in the website: Playfair Display and Courgette
+* [Google Fonts](https://fonts.google.com/) - to import the font-family used in the website: Playfair Display and Courgette.
 * [GitHub](https://github.com/) - used to host repository.
 * [GitPod](https://gitpod.io/workspaces) - used to develop project and organise version control.
 * [GitHub Pages](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/settings/pages) - used to deploy the site.
@@ -227,7 +229,7 @@ At the completion or heavy editing of sections, I used the following to check my
   </p>
   
   
-* The warning returned was for the navigation section lascking a heading - A business logo was used in place of a heading. 
+* The warning returned from the html validator identified the navigation section was lacking a heading - however a business logo was used in place of a heading for this section. 
 #### <em>CSS Validator</em>
  <p align="center">  
  <img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/css-validation.png">
@@ -237,7 +239,7 @@ At the completion or heavy editing of sections, I used the following to check my
 * All pages came back with no errors.
  
 ### Lighthouse Testing
-I used Chromes Lighthouse tools to test site performance. I made sure to check both desktop and mobile performances. Below are the screenshots from both tests:
+I used Chromes Lighthouse tools to test the site's performance. I made sure to check both desktop and mobile performances. Below are the screenshots from both tests:
 #### <em>lighthouse Mobile</em>
 ![Mobile](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/lighthouse-mobile.png)
 #### <em>lighthouse Desktop</em>
@@ -261,7 +263,7 @@ This site was deployed through GitHub Pages using the following steps:
 * The Code Institute material was the main source of information used to create this project.
 * [Bootstrap](https://getbootstrap.com/) for creating a responsive site.
 * [w3schools](https://www.w3schools.com/) was used as a general source of knowledge 
-* [MND Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction) was used as a general sourse of knowledge.
+* [MND Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction) was used as a general source of knowledge.
 * [youtube](https://www.youtube.com/watch?v=44axq8Absis) This tutorial was used to learn how to achieve a transparent navigation bar.
 * [Stack Overflow](https://stackoverflow.com/) was used to assist during debugging.
 * [github docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) was used to create the 404 page.
@@ -271,7 +273,7 @@ This site was deployed through GitHub Pages using the following steps:
     * [unsplash](https://unsplash.com)
     * [pexels](https://www.pexels.com)
     * [pixabay](https://pixabay.com/)
- * The site logo image was designed by myself Moira Hartigan wih the use of [Free Logo Maker](https://logomakr.com/)
+ * The site logo image was designed by myself Moira Hartigan with the use of [Free Logo Maker](https://logomakr.com/)
 
 ### Acknowledgements
 * I would like to thank the Slack Community for their endless support.
