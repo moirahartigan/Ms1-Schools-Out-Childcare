@@ -3,9 +3,9 @@
 This website is designed to provide the parents of primary school children with information regarding childcare services during out of school hours and during school holidays.
 ## Demo
 <!-- add link to live site here -->
-[View the Live Website Here](https://moirahartigan.github.io/Ms1-Schools-Out-Childcare/){:target="_blank" rel="noopener"}
+[View the Live Website Here](https://moirahartigan.github.io/Ms1-Schools-Out-Childcare/)
 
-![Am I Responsive](https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/am-i-responsive.png)
+<img src="https://github.com/moirahartigan/Ms1-Schools-Out-Childcare/blob/master/readme/am-i-responsive.png">
 
 
 # Table of Contents
@@ -74,6 +74,9 @@ The Website is a scrolling single page site with five separate sections.
   
   * For mobile and tablet view there is a hamburger icon which upon clicked slides the nav bar menu out from the right of the screen. I have designed the navbar within this view to remain open after the user has clicked on a link and once they are satisfied with thier selection the user will click on the "x" to collapse the menu.
 
+<p align="center">
+  <img src="">
+    </p>
 
 * #### Our Philosophy - 
   * Here users will find information about our core values and beliefs and why our service would be a good fit for any child. The top button appears in this section. 
@@ -214,16 +217,22 @@ This site was deployed through GitHub Pages using the following steps:
 # Credits
 ### Code
 * The Code Institute material was the main source of information used to create this project.
-* Bootstrap for creating a responsive site.
-* w3schools was used as a general source of knowledge 
+* [Bootstrap](https://getbootstrap.com/) for creating a responsive site.
+* [w3schools](https://www.w3schools.com/) was used as a general source of knowledge 
+* [MND Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction) was used as a general sourse of knowledge.
+* [youtube](https://www.youtube.com/watch?v=44axq8Absis) This tutorial was used to learn how to achieve a transparent navigation bar.
+* [stack Overflow](https://stackoverflow.com/) was used to assist during debugging.
 
 ### Media
 * Images were sourced from the following:
-    * unsplash
-    * pexels
-    * pixabay
+    * [unsplash](https://unsplash.com)
+    * [pexels](https://www.pexels.com)
+    * [pixabay](https://pixabay.com/)
+ * The site logo image was designed by myself Moira Hartigan wih the use of [Free Logo Maker](https://logomakr.com/)
 
 ### Acknowledgements
 * I would like to thank the Slack Community for their endless support.
+* I would like to thank Kasia Bogucka our class cohort facilitator for her constant assistance and encouragement.
+* Finally, I would like to thank my mentor Oluwafemi Medale for his guidence and feedback throughout this milestone project.
  
 ***
